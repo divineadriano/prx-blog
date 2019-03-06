@@ -1,0 +1,28 @@
+title: ProximaX
+default_lang: en
+languages:
+   home_redirect:
+      include_lang: true
+      include_route: false
+author:
+  name: ProximaX
+  email: info@proximax.io
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Official ProximaX Blog'
+summary:
+  enabled: true
+  format: short
+  size: 100
+  delimiter: '==='
+blog:
+  route: /blog
+slider:
+  - image: slider3.jpg
+    url: "#"
+  - image: slider1.jpg
+    url: "#"
+  - image: slider2.jpg
+    url: "#"

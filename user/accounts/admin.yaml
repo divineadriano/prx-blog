@@ -1,0 +1,33 @@
+email: adrianodivine@gmail.com
+fullname: 'Divine Grace Adriano'
+title: Administrator
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+    configuration: 'true'
+    configuration_system: 'true'
+    configuration_site: 'true'
+    configuration_media: 'true'
+    configuration_info: 'true'
+    settings: 'true'
+    pages: 'true'
+    maintenance: 'true'
+    statistics: 'true'
+    plugins: 'true'
+    themes: 'true'
+    tools: 'true'
+    users: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$q61N/AqmudL2WtaZk93cEuFslB1jUPVjCnIYElOiKOpydifZHxD2G
+language: en
+twofa_enabled: false
+twofa_secret: VOMJ26BCHK4OZWOKXIKFDZMXVXCJAJ63
+avatar:
+  user/accounts/avatars/orXGBufD4k0wJne.png:
+    name: orXGBufD4k0wJne.png
+    type: image/png
+    size: 3647352
+    path: user/accounts/avatars/orXGBufD4k0wJne.png

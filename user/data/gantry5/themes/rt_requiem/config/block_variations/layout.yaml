@@ -1,0 +1,389 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1446640956
+layout:
+  /top/:
+    -
+      - system-messages-2777
+  /navigation/:
+    -
+      - 'position-position-9886 10'
+      - 'menu-6934 80'
+      - 'position-position-6679 10'
+  /header/:
+    -
+      - infolist-3523
+  /showcase/: {  }
+  /above/: {  }
+  /utility/: {  }
+  /feature/: {  }
+  /container-5169/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-1082
+      -
+        'mainbar 60':
+          -
+            - system-content-1050
+      -
+        'aside 20':
+          -
+            - position-position-9839
+  /expanded/: {  }
+  /extension/:
+    -
+      - custom-5004
+  /bottom/:
+    -
+      - infolist-2931
+  /footer/: {  }
+  /copyright/:
+    -
+      - 'branding-3234 33.3'
+      - 'copyright-7141 33.3'
+      - 'totop-7016 33.3'
+  /fixedside/:
+    -
+      - logo-7684
+    -
+      - social-9373
+  offcanvas:
+    -
+      - mobile-menu-2145
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-5169:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-2777:
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-position-9886:
+    title: 'MainNav Left'
+    attributes:
+      key: mainnav-left
+    block:
+      class: mainnav-left
+  menu-6934:
+    block:
+      class: mainnav-center
+  position-position-6679:
+    title: 'MainNav Right'
+    attributes:
+      key: mainnav-right
+    block:
+      class: mainnav-right
+  infolist-3523:
+    title: 'Block Variations - Header'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Individualize your block content with many available variations'
+          tag: ''
+          subtag: ''
+          label: 'Learn More'
+          link: 'http://docs.gantry.org/gantry5/configure/layout-manager#blocks'
+          icon: 'fa fa-fw fa-columns'
+          readmoreclass: button-xlarge
+          title: 'Block Variations'
+  position-position-1082:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  position-position-9839:
+    title: Aside
+    attributes:
+      key: aside
+  custom-5004:
+    title: 'Additional Effects - Classes'
+    attributes:
+      html: "<div class=\"g-layercontent\">\n\t<h2 class=\"g-layercontent-title\">Additional Effects &amp; Classes</h2>\n\t<div class=\"g-layercontent-subtitle\">A collection of additional variations for structural and subtle stylistic adjustments.<br />Effects and classes should be applied to the block within the Layout Manager to ensure the desired effect is achieved.</div>\n</div>"
+    block:
+      class: center
+  infolist-2931:
+    title: 'Block Variations Effects & Classes'
+    attributes:
+      cols: g-3cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Add low opacity to a block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Disabled
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Center the block content'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Center
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Apply background to the whole block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'Outer Box'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Remove outer margin/padding'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Flush
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Align block content to the left'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'Align Left'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Align block content to the right'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'Align Right'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Remove outer margin'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'No Margin'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Remove outer padding'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'No Padding'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Add squared corners to a block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Square
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Add rounded corners to a block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Rounded
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Add a shadow effect to a block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'Shadow 1'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Add a different shadow to a block'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'Shadow 2'
+  branding-3234:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7016:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-7684:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-9373:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-2145:
+    title: 'Mobile Menu'

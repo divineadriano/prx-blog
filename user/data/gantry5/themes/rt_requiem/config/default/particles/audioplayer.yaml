@@ -1,0 +1,4 @@
+enabled: '1'
+nowplaying: 'Now Playing'
+scrollbar: noscrollbar
+overflow: '350'

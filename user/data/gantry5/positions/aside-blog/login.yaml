@@ -1,0 +1,10 @@
+type: particle
+title: Login
+chrome:
+  display_title: '1'
+  class: 'box3'
+options:
+  type: login
+  attributes:
+    enabled: '1'
+assignments: all

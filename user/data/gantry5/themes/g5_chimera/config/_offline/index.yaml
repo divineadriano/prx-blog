@@ -1,0 +1,95 @@
+name: _offline
+timestamp: 1553844361
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: _offline
+  timestamp: 1553839470
+positions:
+  navigation-a: 'Navigation A'
+  header-a: 'Header A'
+  slideshow: Slideshow
+  drawer: Drawer
+  top-a: 'Top A'
+  fullstrip: FullStrip
+  firstfullwidth: FirstFullWidth
+  breadcrumb-a: 'Breadcrumb A'
+  utility-a: 'Utility A'
+  secondfullwidth: SecondFullWidth
+  maintop-a: MainTop
+  sidebar-a: Sidebar
+  expandedbottom-a: ExpandedBottom
+  mainbottom-a: MainBottom
+  thirdfullwidth: ThirdFullWidth
+  bottom-a: 'Bottom A'
+sections:
+  navigation: Navigation
+  slideshow: Slideshow
+  drawer: Drawer
+  top: Top
+  showcase: Showcase
+  fullstrip: Fullstrip
+  firstfullwidth: Firstfullwidth
+  breadcrumb: Breadcrumb
+  feature: Feature
+  utility: Utility
+  secondfullwidth: Secondfullwidth
+  maintop: Maintop
+  expandedtop: Expandedtop
+  mainbody: Mainbody
+  sidebar: Sidebar
+  expandedbottom: Expandedbottom
+  mainbottom: Mainbottom
+  thirdfullwidth: Thirdfullwidth
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  position:
+    position-position-1993: 'Navigation A'
+    position-position-6831: 'Header A'
+    position-position-6234: Slideshow
+    position-position-5551: Drawer
+    position-position-9101: 'Top A'
+    position-position-6568: FullStrip
+    position-position-3648: FirstFullWidth
+    position-position-5168: 'Breadcrumb A'
+    position-position-5798: 'Utility A'
+    position-position-4392: SecondFullWidth
+    position-position-3278: MainTop
+    position-position-7684: Sidebar
+    position-position-1604: ExpandedBottom
+    position-position-2329: MainBottom
+    position-position-7936: ThirdFullWidth
+    position-position-4905: 'Bottom A'
+  logo:
+    logo-9204: Logo
+  spacer:
+    spacer-8199: Spacer
+    spacer-2663: Spacer
+  custom:
+    custom-4288: 'Custom HTML'
+    custom-4776: 'Custom HTML'
+  newsletter:
+    newsletter-9526: Newsletter
+  login:
+    login-5002: Login
+  branding:
+    branding-1707: Branding
+  totop:
+    totop-3784: 'To Top'
+  social:
+    social-1954: Social
+  mobile-menu:
+    mobile-menu-1079: 'Mobile Menu'
+inherit:
+  default:
+    copyright: copyright
+    offcanvas: offcanvas
+    branding-1707: branding-4483
+    totop-3784: totop-7311
+    social-1954: social-8525
+    mobile-menu-1079: mobile-menu-4892

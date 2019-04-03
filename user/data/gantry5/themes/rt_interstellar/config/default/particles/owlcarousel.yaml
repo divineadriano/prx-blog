@@ -1,0 +1,16 @@
+enabled: '1'
+class: ''
+title: ''
+layout: standard
+width: g-owlcarousel-fullwidth
+animateOut: fadeOut
+animateIn: fadeIn
+nav: enabled
+prevText: ''
+nextText: ''
+dots: disabled
+loop: enabled
+autoplay: disabled
+autoplaySpeed: ''
+pauseOnHover: enabled
+items: {  }

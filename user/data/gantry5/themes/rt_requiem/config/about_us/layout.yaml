@@ -1,0 +1,372 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1446640956
+layout:
+  /top/:
+    -
+      - system-messages-2777
+  /navigation/:
+    -
+      - 'position-position-9886 10'
+      - 'menu-6934 80'
+      - 'position-position-6679 10'
+  /header/:
+    -
+      - infolist-9463
+  /showcase/: {  }
+  /above/:
+    -
+      - blockcontent-3147
+  /utility/: {  }
+  /feature/: {  }
+  /container-5169/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-1082
+      -
+        'mainbar 60':
+          -
+            - blockcontent-1528
+      -
+        'aside 20':
+          -
+            - position-position-9839
+  /expanded/: {  }
+  /extension/:
+    -
+      - blockcontent-3962
+  /bottom/:
+    -
+      - infolist-7988
+  /footer/:
+    -
+      - 'position-position-8117 33.3'
+      - 'position-position-4597 33.3'
+      - 'position-position-9461 33.3'
+  /copyright/:
+    -
+      - 'branding-3234 33.3'
+      - 'copyright-7141 33.3'
+      - 'totop-7016 33.3'
+  /fixedside/:
+    -
+      - logo-7684
+    -
+      - social-9373
+  offcanvas:
+    -
+      - mobile-menu-2145
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-5169:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-2777:
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-position-9886:
+    title: 'MainNav Left'
+    attributes:
+      key: mainnav-left
+    block:
+      class: mainnav-left
+  menu-6934:
+    block:
+      class: mainnav-center
+  position-position-6679:
+    title: 'MainNav Right'
+    attributes:
+      key: mainnav-right
+    block:
+      class: mainnav-right
+  infolist-9463:
+    title: 'About Us - Header'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Who We Are'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          icon: ''
+          readmoreclass: ''
+          title: 'About Us'
+  blockcontent-3147:
+    title: 'About Us - Mission - Values - Solution'
+    attributes:
+      subcontents:
+        -
+          name: 'Our Mission'
+          icon: ''
+          img: ''
+          subtitle: ''
+          description: 'Objectively innovate empowered manufactured products whereas parallel platforms. Holistically predominate extensible testing procedures for reliable supply chains.'
+          class: 'center box-blue'
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Mission'
+        -
+          name: 'Our Values'
+          icon: ''
+          img: ''
+          subtitle: ''
+          description: 'Objectively innovate empowered manufactured products whereas parallel platforms. Holistically predominate extensible testing procedures for reliable supply chains.'
+          class: 'center box-pink'
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Values'
+        -
+          name: 'Our Solution'
+          icon: ''
+          img: ''
+          subtitle: ''
+          description: 'Objectively innovate empowered manufactured products whereas parallel platforms. Holistically predominate extensible testing procedures for reliable supply chains.'
+          class: 'center box-orange'
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Solution'
+  position-position-1082:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  blockcontent-1528:
+    title: 'About Us - Introduction - Mission - Business'
+    attributes:
+      headline: 'Why You Should Join Us'
+      description: 'Choose the theme that suits your needs. 100% satisfaction guaranteed.'
+      class: center
+      subcontents:
+        -
+          name: Introduction
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/img-01.jpg'
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: Introduction
+        -
+          name: Mission
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/img-02.jpg'
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: Mission
+        -
+          name: Business
+          icon: ''
+          img: 'gantry-media://rocketlauncher/pages/about-us/img-03.jpg'
+          subtitle: ''
+          description: ''
+          class: nopaddingall
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: Business
+  position-position-9839:
+    title: Aside
+    attributes:
+      key: aside
+  blockcontent-3962:
+    title: 'About Us - Sophisticated - Responsive - Powerful'
+    attributes:
+      subcontents:
+        -
+          name: Sophisticated
+          icon: 'fa fa-dashboard fa-fw fa-2x'
+          img: ''
+          subtitle: ''
+          description: 'Dynamically procrastinate B2C users after installed base benefits.'
+          class: box-grey
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Mission'
+        -
+          name: Responsive
+          icon: 'fa fa-arrows-alt fa-fw fa-2x'
+          img: ''
+          subtitle: ''
+          description: 'Dynamically procrastinate B2C users after installed base benefits.'
+          class: box-grey
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Values'
+        -
+          name: Powerful
+          icon: 'fa fa-sliders fa-fw fa-2x'
+          img: ''
+          subtitle: ''
+          description: 'Dynamically procrastinate B2C users after installed base benefits.'
+          class: box-grey
+          button: ''
+          buttonlink: ''
+          buttonclass: ''
+          title: 'Our Solution'
+  infolist-7988:
+    title: 'About Us - We Always Try to Create a Difference'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Versatile and Flexible Features Powered by the Gantry Framework.'
+          tag: ''
+          subtag: ''
+          label: 'Download Requiem'
+          link: 'http://www.rockettheme.com/grav/themes/requiem'
+          icon: ''
+          readmoreclass: ''
+          title: 'We Always Try to Create a Difference'
+  position-position-8117:
+    title: 'Footer A'
+    attributes:
+      key: footer-a
+  position-position-4597:
+    title: 'Footer B'
+    attributes:
+      key: footer-b
+  position-position-9461:
+    title: 'Footer C'
+    attributes:
+      key: footer-c
+  branding-3234:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7016:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-7684:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-9373:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-2145:
+    title: 'Mobile Menu'

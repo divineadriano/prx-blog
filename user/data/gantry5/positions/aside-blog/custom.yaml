@@ -1,0 +1,11 @@
+type: particle
+title: 'Gantry 5 Guides'
+chrome:
+  display_title: '1'
+  class: 'box1'
+options:
+  type: custom
+  attributes:
+    enabled: '1'
+    html: "<ul>\n  <li><a href=\"http://docs.gantry.org/gantry5/basics/installation\">Installation</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/configure/gantry-admin\">Gantry Admin Configuration</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/configure/layout-manager\">Layout Manager</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/configure/menu-editor\">Menu Editor</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/configure/assignments\">Assignments</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/particles/particles\">Gantry Particles</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/particles/mobile-menu\">Mobile Menu</a></li>\n  <li><a href=\"http://docs.gantry.org/gantry5/advanced\">Advanced Customizaton</a></li>\n</ul>"
+assignments: all

@@ -1,0 +1,75 @@
+preset: preset2
+base:
+  background: '#ffffff'
+  text-color: '#a8a8a8'
+accent:
+  color-1: '#2ea1b3'
+  color-2: '#0a5580'
+font:
+  family-default: 'family=Open+Sans:300,600,700,400'
+  family-alt: 'Walkway, Verdana, Helvetica, Arial, sans-serif'
+navigation:
+  background: '#3b3b3b'
+  text-color: '#ffffff'
+slideshow:
+  background: '#0a5580'
+  text-color: '#ffffff'
+topfullwidth:
+  background: '#ffffff'
+  text-color: '#a8a8a8'
+top:
+  background: '#ffffff'
+  text-color: '#a8a8a8'
+showcase:
+  background: '#2ea1b3'
+  text-color: '#ffffff'
+feature:
+  background: '#ffffff'
+  text-color: '#444444'
+utility:
+  background: '#ffffff'
+  text-color: '#444444'
+expandedtop:
+  background: '#0a5580'
+  text-color: '#ffffff'
+maintop:
+  background: '#ffffff'
+  text-color: '#444444'
+main:
+  background: '#ffffff'
+  text-color: '#a8a8a8'
+mainbottom:
+  background: '#ffffff'
+  text-color: '#444444'
+expandedbottom:
+  background: '#0a5580'
+  text-color: '#ffffff'
+fullwidth:
+  background: '#ffffff'
+  text-color: '#a8a8a8'
+extension:
+  background: '#f7f7f7'
+  text-color: '#444444'
+bottom:
+  background: '#3b3b3b'
+  text-color: '#aaaaaa'
+footer:
+  background: '#333333'
+  text-color: '#aaaaaa'
+copyright:
+  background: '#3b3b3b'
+  text-color: '#aaaaaa'
+offcanvas:
+  background: '#efefef'
+  text-color: '#2ea1b3'
+  width: 17rem
+  toggle-color: '#2ea1b3'
+  toggle-visibility: '1'
+breakpoints:
+  large-desktop-container: 75rem
+  desktop-container: 60rem
+  tablet-container: 48rem
+  large-mobile-container: 30rem
+  mobile-menu-breakpoint: 48rem
+menu:
+  animation: g-fade

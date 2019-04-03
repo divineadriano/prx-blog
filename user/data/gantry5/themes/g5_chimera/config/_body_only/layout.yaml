@@ -1,0 +1,23 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/body-only.png'
+  name: _body_only
+  timestamp: 1553839470
+layout:
+  /body/:
+    -
+      - system-messages-4424
+    -
+      - slideshow-6971
+    -
+      - 'system-content-2010 90'
+      - 'search-5697 10'
+structure:
+  body:
+    type: section
+    attributes:
+      boxed: 1
+content:
+  system-messages-4424:
+    block:
+      variations: 'nomarginall nopaddingall'

@@ -1,0 +1,13 @@
+enabled: '1'
+class: ''
+title: ''
+layout: slideshow
+showcaseThumbWidth: '150'
+autoplay: enabled
+autoplaySpeed: ''
+pauseOnHover: enabled
+animation: slide
+prevButtonText: ''
+nextButtonText: ''
+rtl: disabled
+items: {  }

@@ -1,0 +1,483 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1446640956
+layout:
+  /top/:
+    -
+      - system-messages-2777
+  /navigation/:
+    -
+      - 'position-position-9886 10'
+      - 'menu-6934 80'
+      - 'position-position-6679 10'
+  /header/:
+    -
+      - infolist-2820
+  /showcase/: {  }
+  /above/:
+    -
+      - contentlist-5019
+  /utility/: {  }
+  /feature/: {  }
+  /container-5169/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-1082
+      -
+        'mainbar 60':
+          -
+            - 'promoimage-6351 33.3'
+            - 'promoimage-9140 33.3'
+            - 'promoimage-4693 33.3'
+          -
+            - 'promoimage-3063 33.3'
+            - 'promoimage-1077 33.3'
+            - 'promoimage-4423 33.3'
+      -
+        'aside 20':
+          -
+            - position-position-9839
+  /expanded/: {  }
+  /extension/:
+    -
+      - infolist-1498
+  /bottom/:
+    -
+      - infolist-1212
+  /footer/:
+    -
+      - 'position-position-2097 33.3'
+      - 'position-position-1637 33.3'
+      - 'position-position-7928 33.3'
+  /copyright/:
+    -
+      - 'branding-3234 33.3'
+      - 'copyright-7141 33.3'
+      - 'totop-7016 33.3'
+  /fixedside/:
+    -
+      - logo-7684
+    -
+      - social-9373
+  offcanvas:
+    -
+      - mobile-menu-2145
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-5169:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-2777:
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-position-9886:
+    title: 'MainNav Left'
+    attributes:
+      key: mainnav-left
+    block:
+      class: mainnav-left
+  menu-6934:
+    block:
+      class: mainnav-center
+  position-position-6679:
+    title: 'MainNav Right'
+    attributes:
+      key: mainnav-right
+    block:
+      class: mainnav-right
+  infolist-2820:
+    title: 'Portfolio - Header'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'What We Have Already Done'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          icon: ''
+          readmoreclass: ''
+          title: Portfolio
+  contentlist-5019:
+    title: 'Requiem Premium Project'
+    attributes:
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-01.jpg'
+      imagetag: 'On Going'
+      headline: 'Requiem Premium Project'
+      subtitle: 'Website Redesign and Publishing'
+      desc: 'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.'
+      readmore: 'Check Project'
+      link: '#'
+      cols: g-listgrid-3cols
+      listgriditems:
+        -
+          icon: 'fa fa-user fa-fw'
+          text: 'Mr. Great Client'
+          link: ''
+          title: 'Mr. Great Client'
+        -
+          icon: 'fa fa-check-square-o fa-fw'
+          text: Graphic
+          link: ''
+          title: Graphic
+        -
+          icon: 'fa fa-calendar fa-fw'
+          text: 01/01/2086
+          link: ''
+          title: 01/01/2086
+        -
+          icon: 'fa fa-check-square-o fa-fw'
+          text: HTML/CSS
+          link: ''
+          title: HTML/CSS
+        -
+          icon: 'fa fa-tag fa-fw'
+          text: 'design, cover, logo'
+          link: ''
+          title: 'design, cover, logo'
+        -
+          icon: 'fa fa-check-square-o fa-fw'
+          text: Gantry
+          link: ''
+          title: Gantry
+  position-position-1082:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  promoimage-6351:
+    title: 'Magazine Promo Image'
+    attributes:
+      class: center
+      title: Magazine
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-03.jpg'
+      promoimagetitle: Magazine
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  promoimage-9140:
+    title: 'Logo Promo Image'
+    attributes:
+      class: center
+      title: Logo
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-04.jpg'
+      promoimagetitle: Logo
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  promoimage-4693:
+    title: 'Brochure Promo Image'
+    attributes:
+      class: center
+      title: Brochure
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-05.jpg'
+      promoimagetitle: Brochure
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  promoimage-3063:
+    title: 'Decorations Promo Image'
+    attributes:
+      class: center
+      title: Decorations
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-06.jpg'
+      promoimagetitle: Decorations
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  promoimage-1077:
+    title: 'Illustrations Promo Image'
+    attributes:
+      class: center
+      title: Illustrations
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-07.jpg'
+      promoimagetitle: Illustrations
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  promoimage-4423:
+    title: 'Photos Promo Image'
+    attributes:
+      class: center
+      title: Photos
+      image: 'gantry-media://rocketlauncher/pages/portfolio/img-08.jpg'
+      promoimagetitle: Photos
+      desc: 'Short project description here'
+      iconbutton: 'fa fa-file-text-o'
+  position-position-9839:
+    title: Aside
+    attributes:
+      key: aside
+  infolist-1498:
+    title: 'Upcoming Projects'
+    attributes:
+      title: 'Upcoming Projects'
+      cols: g-3cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '404 Pages'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Banners
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Forms
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Badges
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Sliders
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Newsletter
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Stickers
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Dropdown
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Collaboratively administrate empowered markets via plug-and-play networks'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: Interfaces
+  infolist-1212:
+    title: 'Portfolio - 100% Satisfaction Guaranteed'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Will You be the Next to Join Our Happy Clients?'
+          tag: ''
+          subtag: ''
+          label: 'Join Now'
+          link: 'http://www.rockettheme.com/grav/themes/requiem'
+          icon: ''
+          readmoreclass: ''
+          title: '100% Satisfaction Guaranteed'
+  position-position-2097:
+    title: 'Foote A'
+    attributes:
+      key: footer-a
+  position-position-1637:
+    title: 'Footer B'
+    attributes:
+      key: footer-b
+  position-position-7928:
+    title: 'Footer C'
+    attributes:
+      key: footer-c
+  branding-3234:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7016:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-7684:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-9373:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-2145:
+    title: 'Mobile Menu'

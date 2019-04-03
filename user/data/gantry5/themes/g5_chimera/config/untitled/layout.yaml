@@ -1,0 +1,198 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1553839470
+layout:
+  navigation: {  }
+  slideshow: {  }
+  topfullwidth: {  }
+  top: {  }
+  showcase: {  }
+  breadcrumb: {  }
+  feature: {  }
+  utility: {  }
+  expandedtop: {  }
+  maintop: {  }
+  /main/:
+    -
+      -
+        'mainbody 60': {  }
+      -
+        'sidebar 40': {  }
+  mainbottom: {  }
+  expandedbottom: {  }
+  fullwidth: {  }
+  extension: {  }
+  bottom: {  }
+  footer: {  }
+  copyright: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  slideshow:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  topfullwidth:
+    type: section
+    title: TopFullWidth
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  top:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  showcase:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  breadcrumb:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  feature:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  expandedtop:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  maintop:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  mainbody:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  main:
+    type: container
+    attributes:
+      boxed: ''
+      class: ''
+      extra: {  }
+    subtype: main
+  mainbottom:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  expandedbottom:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  fullwidth:
+    type: section
+    title: FullWidth
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  extension:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  bottom:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  copyright:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children

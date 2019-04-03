@@ -1,0 +1,13 @@
+type: particle
+title: 'Sample Sitemap'
+chrome:
+  display_title: '1'
+  class: ''
+options:
+  type: custom
+  attributes:
+    enabled: '1'
+    html: "<div class=\"g-grid g-sample-sitemap\">\n\t<div class=\"g-block\">\n\t\t<ul class=\"nomarginall noliststyle\">\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/\">Home</a></li>\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/overview/\">Features</a></li>\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/typography/\">Typography</a></li>\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/typography/\">Particles</a></li>\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/block-variations/\">Variations</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"g-block\">\n\t\t<ul class=\"nomarginall noliststyle\">\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/typography/\">Buttons</a></li>\n\t\t\t<li><a href=\"http://demo.rockettheme.com/live/grav/requiem/about-us/\">Pages</a></li>\n\t\t\t<li><a href=\"http://www.rockettheme.com/docs/grav/themes/requiem\">Guide</a></li>\n\t\t\t<li><a href=\"http://www.rockettheme.com/forum/grav-theme-requiem\">Support</a></li>\n\t\t\t<li><a href=\"http://www.rockettheme.com/grav/themes/requiem\">Download</a></li>\n\t\t</ul>\t\t\n\t</div>\t\n</div>"
+    twig: '0'
+    filter: '0'
+assignments: all

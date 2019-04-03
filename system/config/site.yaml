@@ -1,14 +1,14 @@
-title: ProximaX                                 # Name of the site
+title: Grav                                 # Name of the site
 default_lang: en                            # Default language for site (potentially used by theme)
 
 author:
-  name: ProximaX                      # Default author name
-  email: 'info@proximax.io'                 # Default author email
+  name: John Appleseed                      # Default author name
+  email: 'john@example.com'                 # Default author email
 
 taxonomies: [category,tag]                  # Arbitrary list of taxonomy types
 
 metadata:
-  description: 'ProximaX Official Blog Site'               # Site description
+  description: 'My Grav Site'               # Site description
 
 summary:
   enabled: true                             # enable or disable summary of page

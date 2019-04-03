@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://login/login.yaml',
-    'modified' => 1551195037,
+    'modified' => 1553754863,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -24,10 +24,10 @@ return [
             'timeout' => 604800,
             'name' => 'grav-rememberme'
         ],
-        'max_pw_resets_count' => 0,
+        'max_pw_resets_count' => 2,
         'max_pw_resets_interval' => 60,
-        'max_login_count' => 0,
-        'max_login_interval' => 2,
+        'max_login_count' => 5,
+        'max_login_interval' => 10,
         'user_registration' => [
             'enabled' => false,
             'fields' => [

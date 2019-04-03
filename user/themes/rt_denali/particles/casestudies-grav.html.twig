@@ -1,0 +1,102 @@
+{# Load Content From Grav #}
+{% set attr_extra = particle.extra|attribute_array %}
+{% set article_settings = particle.article %}
+{% set filter = article_settings.filter %}
+{% set sort = article_settings.sort %}
+{% set limit = article_settings.limit %}
+{% set start = limit.start %}
+{% set display = article_settings.display %}
+{% set categories = filter.categories|split(' ') %}
+{% set collection = grav.page.collection(
+{
+    items: {'@taxonomy.category': categories},
+    order: {by: sort.orderby, dir: sort.ordering},
+    url_taxonomy_filters: false
+},
+false) %}
+{% set total = collection.count() %}
+{% set pages = collection.slice(start, limit.total) %}
+
+<div class="g-casestudies-header">
+    {% if particle.title %}
+        <div class="g-casestudies-title">
+            {% if particle.uppertitle %}
+                <span class="g-casestudies-uppertitle">{{ particle.uppertitle|raw }}</span>
+            {% endif %}
+            {{ particle.title }}
+        </div>
+    {% endif %}
+
+    <div class="g-casestudies-nav">
+        <div class="g-casestudies-nav-container">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="g-casestudies-nav-item selected" data-group="all">
+                {{ particle.allitems|default('All items')|e }}
+            </div>
+            {% for item in categories %}
+                <div class="g-casestudies-nav-item" data-group="{{ item }}">
+                    {{ item }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="g-casestudies-grid {{ particle.cols }}">
+    <div class="g-casestudies-grid-sizer"></div>
+    {% for page in pages %}
+        {% if display.image.enabled %}
+            {% if display.image.enabled == 'intro' %}
+                {% set file = page.header.image.summary.enabled|defined(false) ? (page.header.image.summary.file ?: true) %}
+            {% elseif display.image.enabled == 'full' %}
+                {% set file = page.header.image.text.enabled|defined(false) ? (page.header.image.text.file ?: true) %}
+            {% endif %}
+
+            {% set image = file is same as(true) ? page.media.images|first : (file ? page.media.images[file]) %}
+        {% endif %}
+
+        <div class="g-casestudies-grid-item" data-groups='[{% for c in categories %}"{{ c }}"{{ not loop.last ? "," }}{% endfor %}]'>
+            <div class="g-casestudies-grid-item-wrapper g-casestudies-layout-alt-bottom">
+                <div class="g-casestudies-grid-item-content">
+                     {% if display.date.enabled %}
+                         <div class="g-casestudies-grid-item-subtitle">
+                             {% if display.date.enabled == 'published' %}
+                                 {{ page.publishDate()|date(display.date.format) }}
+                             {% elseif display.date.enabled == 'modified' %}
+                                 {{ page.modified|date(display.date.format) }}
+                             {% else %}
+                                 {{ page.date|date(display.date.format) }}
+                             {% endif %}
+                         </div>
+                    {% endif %}
+
+                    {% if display.title.enabled and page.title %}
+                        <div class="g-casestudies-grid-item-title">{{ (display.title.limit ? page.title|e|truncate_text(display.title.limit) : page.title|e)|raw }}</div>
+                    {% endif %}
+
+                    {% if display.text.type %}
+                        {% set page_text = display.text.type == 'intro' ? page.summary : page.content %}
+                        <div class="g-casestudies-grid-item-description">
+                            {% if display.text.formatting == 'text' %}
+                                {{ page_text|truncate_text(display.text.limit)|raw }}
+                            {% else %}
+                                {{ page_text|truncate_html(display.text.limit)|raw }}
+                            {% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% if display.read_more.enabled %}
+                        <a href="{{ page.url|e }}" target="{{ display.read_more.target|default('_self')|e }}" title="{{ page.title|e }}" class="g-casestudies-grid-item-button {{ display.read_more.css }}">{{ display.read_more.label|default('Read More...') }}</a>
+                    {% endif %}
+
+                </div>
+
+                <div class="g-casestudies-grid-item-image">
+                    <img src="{{ image.url }}" alt="{{ page.title|e }}"/>
+                </div>
+
+                <a href="{{ page.url|e }}" target="{{ display.read_more.target|default('_self')|e }}" class="g-casestudies-link-overlay"></a>
+            </div>
+        </div>
+    {% endfor %}
+</div>

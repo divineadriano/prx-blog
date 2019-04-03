@@ -1,0 +1,6 @@
+name: aside-blog
+title: 'Aside - Blog'
+ordering:
+  - search_2
+  - login
+  - custom

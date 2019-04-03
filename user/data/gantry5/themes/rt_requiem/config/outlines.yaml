@@ -1,0 +1,24 @@
+default:
+  title: Default
+  preset: default
+_error:
+  title: Error
+  preset: _error
+_offline:
+  title: Offline
+  preset: _offline
+_body_only:
+  title: 'Body Only'
+  preset: _body_only
+home:
+  id: 30
+  title: 'Home'
+  preset: home
+typography:
+  id: 32
+  title: Typography
+  preset: typography
+coming_soon:
+  id: 33
+  title: 'Coming Soon'
+  preset: coming_soon

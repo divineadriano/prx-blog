@@ -1,0 +1,230 @@
+name: untitled
+timestamp: 1553844386
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1553839470
+positions:
+  slideshow-a: 'Slideshow A'
+  slideshow-b: 'Slideshow B'
+  slideshow-c: 'Slideshow C'
+  slideshow-d: 'Slideshow D'
+  topfullwidth: 'Top Fullwidth'
+  top-a: 'Top A'
+  top-b: 'Top B'
+  top-c: 'Top C'
+  top-d: 'Top D'
+  showcase-a: 'Showcase A'
+  showcase-b: 'Showcase B'
+  showcase-c: 'Showcase C'
+  showcase-d: 'Showcase D'
+  breadcrumb: Breadcrumb
+  feature-a: 'Feature A'
+  feature-b: 'Feature B'
+  feature-c: 'Feature C'
+  feature-d: 'Feature D'
+  utility-a: 'Utility A'
+  utility-b: 'Utility B'
+  utility-c: 'Utility C'
+  utility-d: 'Utility D'
+  expandedtop-a: 'ExpandedTop A'
+  expandedtop-b: 'ExpandedTop B'
+  expandedtop-c: 'ExpandedTop C'
+  expandedtop-d: 'ExpandedTop D'
+  maintop-a: 'Maintop A'
+  maintop-b: 'MainTop B'
+  maintop-c: 'MainTop C'
+  maintop-d: 'MainTop D'
+  sidebar-a: 'Sidebar A'
+  mainbottom-a: 'MainBottom A'
+  mainbottom-b: 'MainBottom B'
+  mainbottom-c: 'MainBottom C'
+  mainbottom-d: 'MainBottom D'
+  expandedbottom-a: 'ExpandedBottom A'
+  expandedbottom-b: 'ExpandedBottom B'
+  expandedbottom-c: 'ExpandedBottom C'
+  expandedbottom-d: 'ExpandedBottom D'
+  fullwidth: Fullwidth
+  extension-a: 'Extension A'
+  extension-b: 'Extension B'
+  extension-c: 'Extension C'
+  extension-d: 'Extension D'
+  bottom-a: 'Bottom A'
+  bottom-b: 'Bottom B'
+  bottom-c: 'Bottom C'
+  bottom-d: 'Bottom D'
+  footer-a: 'Footer A'
+  footer-b: 'Footer B'
+  footer-c: 'Footer C'
+  footer-d: 'Footer D'
+sections:
+  navigation: Navigation
+  slideshow: Slideshow
+  topfullwidth: TopFullWidth
+  top: Top
+  showcase: Showcase
+  breadcrumb: Breadcrumb
+  feature: Feature
+  utility: Utility
+  expandedtop: Expandedtop
+  maintop: Maintop
+  mainbody: Mainbody
+  sidebar: Sidebar
+  mainbottom: Mainbottom
+  expandedbottom: Expandedbottom
+  fullwidth: FullWidth
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-2818: Logo
+  menu:
+    menu-2452: Menu
+  position:
+    position-position-6272: 'Slideshow A'
+    position-position-8434: 'Slideshow B'
+    position-position-4374: 'Slideshow C'
+    position-position-4206: 'Slideshow D'
+    position-position-2536: 'Top Fullwidth'
+    position-position-9614: 'Top A'
+    position-position-2822: 'Top B'
+    position-position-8624: 'Top C'
+    position-position-6136: 'Top D'
+    position-position-3901: 'Showcase A'
+    position-position-1787: 'Showcase B'
+    position-position-9594: 'Showcase C'
+    position-position-2017: 'Showcase D'
+    position-position-8533: Breadcrumb
+    position-position-5155: 'Feature A'
+    position-position-9145: 'Feature B'
+    position-position-4558: 'Feature C'
+    position-position-6822: 'Feature D'
+    position-position-3763: 'Utility A'
+    position-position-1595: 'Utility B'
+    position-position-9883: 'Utility C'
+    position-position-9138: 'Utility D'
+    position-position-3666: 'ExpandedTop A'
+    position-position-5673: 'ExpandedTop B'
+    position-position-8590: 'ExpandedTop C'
+    position-position-7671: 'ExpandedTop D'
+    position-position-5070: 'Maintop A'
+    position-position-8366: 'MainTop B'
+    position-position-2086: 'MainTop C'
+    position-position-8096: 'MainTop D'
+    position-position-3770: 'Sidebar A'
+    position-position-6007: 'MainBottom A'
+    position-position-7061: 'MainBottom B'
+    position-position-2118: 'MainBottom C'
+    position-position-5821: 'MainBottom D'
+    position-position-7290: 'ExpandedBottom A'
+    position-position-1197: 'ExpandedBottom B'
+    position-position-1042: 'ExpandedBottom C'
+    position-position-9211: 'ExpandedBottom D'
+    position-position-1539: Fullwidth
+    position-position-5121: 'Extension A'
+    position-position-1253: 'Extension B'
+    position-position-2078: 'Extension C'
+    position-position-9825: 'Extension D'
+    position-position-3343: 'Bottom A'
+    position-position-5248: 'Bottom B'
+    position-position-6757: 'Bottom C'
+    position-position-4613: 'Bottom D'
+    position-position-7043: 'Footer A'
+    position-position-9805: 'Footer B'
+    position-position-6452: 'Footer C'
+    position-position-7796: 'Footer D'
+  content:
+    system-content-3794: 'Page Content'
+  branding:
+    branding-6935: Branding
+  totop:
+    totop-5491: 'To Top'
+  social:
+    social-3169: Social
+  mobile-menu:
+    mobile-menu-9221: 'Mobile Menu'
+inherit:
+  default:
+    navigation: navigation
+    slideshow: slideshow
+    topfullwidth: topfullwidth
+    top: top
+    showcase: showcase
+    breadcrumb: breadcrumb
+    feature: feature
+    utility: utility
+    expandedtop: expandedtop
+    maintop: maintop
+    mainbody: mainbody
+    sidebar: sidebar
+    mainbottom: mainbottom
+    expandedbottom: expandedbottom
+    fullwidth: fullwidth
+    extension: extension
+    bottom: bottom
+    footer: footer
+    copyright: copyright
+    offcanvas: offcanvas
+    logo-2818: logo-5679
+    menu-2452: menu-2875
+    position-position-6272: position-position-5412
+    position-position-8434: position-position-9298
+    position-position-4374: position-position-5357
+    position-position-4206: position-position-7358
+    position-position-2536: position-position-7023
+    position-position-9614: position-position-5939
+    position-position-2822: position-position-7490
+    position-position-8624: position-position-2336
+    position-position-6136: position-position-7291
+    position-position-3901: position-position-2621
+    position-position-1787: position-position-4680
+    position-position-9594: position-position-4839
+    position-position-2017: position-position-1217
+    position-position-8533: position-position-5071
+    position-position-5155: position-position-4543
+    position-position-9145: position-position-5434
+    position-position-4558: position-position-5489
+    position-position-6822: position-position-8898
+    position-position-3763: position-position-3724
+    position-position-1595: position-position-2653
+    position-position-9883: position-position-3401
+    position-position-9138: position-position-1491
+    position-position-3666: position-position-1000
+    position-position-5673: position-position-7873
+    position-position-8590: position-position-6835
+    position-position-7671: position-position-3436
+    position-position-5070: position-position-2723
+    position-position-8366: position-position-7137
+    position-position-2086: position-position-3102
+    position-position-8096: position-position-1823
+    system-content-3794: system-content-6489
+    position-position-3770: position-position-7684
+    position-position-6007: position-position-7827
+    position-position-7061: position-position-4155
+    position-position-2118: position-position-2697
+    position-position-5821: position-position-1720
+    position-position-7290: position-position-5349
+    position-position-1197: position-position-9431
+    position-position-1042: position-position-9746
+    position-position-9211: position-position-9170
+    position-position-1539: position-position-3944
+    position-position-5121: position-position-3769
+    position-position-1253: position-position-2063
+    position-position-2078: position-position-6577
+    position-position-9825: position-position-1027
+    position-position-3343: position-position-2796
+    position-position-5248: position-position-7267
+    position-position-6757: position-position-5690
+    position-position-4613: position-position-7655
+    position-position-7043: position-position-4077
+    position-position-9805: position-position-4480
+    position-position-6452: position-position-9100
+    position-position-7796: position-position-6570
+    branding-6935: branding-4483
+    totop-5491: totop-7311
+    social-3169: social-8525
+    mobile-menu-9221: mobile-menu-4892

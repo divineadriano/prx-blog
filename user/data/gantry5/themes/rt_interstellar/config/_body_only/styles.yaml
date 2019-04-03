@@ -1,0 +1,14 @@
+preset: preset4
+accent:
+  color-1: '#36a763'
+  color-2: '#0B7737'
+slideshow:
+  background: '#36a763'
+above:
+  background-image: 'gantry-media://backgrounds/above/img-04.jpg'
+  text-color: '#ffffff'
+bottom:
+  background: '#36a763'
+offcanvas:
+  background: '#36a763'
+  toggle-color: '#36a763'

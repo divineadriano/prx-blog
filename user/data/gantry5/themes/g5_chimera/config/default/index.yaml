@@ -1,0 +1,150 @@
+name: default
+timestamp: 1553844361
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1553839470
+positions:
+  slideshow-a: 'Slideshow A'
+  slideshow-b: 'Slideshow B'
+  slideshow-c: 'Slideshow C'
+  slideshow-d: 'Slideshow D'
+  topfullwidth: 'Top Fullwidth'
+  top-a: 'Top A'
+  top-b: 'Top B'
+  top-c: 'Top C'
+  top-d: 'Top D'
+  showcase-a: 'Showcase A'
+  showcase-b: 'Showcase B'
+  showcase-c: 'Showcase C'
+  showcase-d: 'Showcase D'
+  breadcrumb: Breadcrumb
+  feature-a: 'Feature A'
+  feature-b: 'Feature B'
+  feature-c: 'Feature C'
+  feature-d: 'Feature D'
+  utility-a: 'Utility A'
+  utility-b: 'Utility B'
+  utility-c: 'Utility C'
+  utility-d: 'Utility D'
+  expandedtop-a: 'ExpandedTop A'
+  expandedtop-b: 'ExpandedTop B'
+  expandedtop-c: 'ExpandedTop C'
+  expandedtop-d: 'ExpandedTop D'
+  maintop-a: 'Maintop A'
+  maintop-b: 'MainTop B'
+  maintop-c: 'MainTop C'
+  maintop-d: 'MainTop D'
+  sidebar-a: 'Sidebar A'
+  mainbottom-a: 'MainBottom A'
+  mainbottom-b: 'MainBottom B'
+  mainbottom-c: 'MainBottom C'
+  mainbottom-d: 'MainBottom D'
+  expandedbottom-a: 'ExpandedBottom A'
+  expandedbottom-b: 'ExpandedBottom B'
+  expandedbottom-c: 'ExpandedBottom C'
+  expandedbottom-d: 'ExpandedBottom D'
+  fullwidth: Fullwidth
+  extension-a: 'Extension A'
+  extension-b: 'Extension B'
+  extension-c: 'Extension C'
+  extension-d: 'Extension D'
+  bottom-a: 'Bottom A'
+  bottom-b: 'Bottom B'
+  bottom-c: 'Bottom C'
+  bottom-d: 'Bottom D'
+  footer-a: 'Footer A'
+  footer-b: 'Footer B'
+  footer-c: 'Footer C'
+  footer-d: 'Footer D'
+sections:
+  navigation: Navigation
+  slideshow: Slideshow
+  topfullwidth: TopFullWidth
+  top: Top
+  showcase: Showcase
+  breadcrumb: Breadcrumb
+  feature: Feature
+  utility: Utility
+  expandedtop: Expandedtop
+  maintop: Maintop
+  mainbody: Mainbody
+  sidebar: Sidebar
+  mainbottom: Mainbottom
+  expandedbottom: Expandedbottom
+  fullwidth: FullWidth
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-5679: Logo
+  menu:
+    menu-2875: Menu
+  position:
+    position-position-5412: 'Slideshow A'
+    position-position-9298: 'Slideshow B'
+    position-position-5357: 'Slideshow C'
+    position-position-7358: 'Slideshow D'
+    position-position-7023: 'Top Fullwidth'
+    position-position-5939: 'Top A'
+    position-position-7490: 'Top B'
+    position-position-2336: 'Top C'
+    position-position-7291: 'Top D'
+    position-position-2621: 'Showcase A'
+    position-position-4680: 'Showcase B'
+    position-position-4839: 'Showcase C'
+    position-position-1217: 'Showcase D'
+    position-position-5071: Breadcrumb
+    position-position-4543: 'Feature A'
+    position-position-5434: 'Feature B'
+    position-position-5489: 'Feature C'
+    position-position-8898: 'Feature D'
+    position-position-3724: 'Utility A'
+    position-position-2653: 'Utility B'
+    position-position-3401: 'Utility C'
+    position-position-1491: 'Utility D'
+    position-position-1000: 'ExpandedTop A'
+    position-position-7873: 'ExpandedTop B'
+    position-position-6835: 'ExpandedTop C'
+    position-position-3436: 'ExpandedTop D'
+    position-position-2723: 'Maintop A'
+    position-position-7137: 'MainTop B'
+    position-position-3102: 'MainTop C'
+    position-position-1823: 'MainTop D'
+    position-position-7684: 'Sidebar A'
+    position-position-7827: 'MainBottom A'
+    position-position-4155: 'MainBottom B'
+    position-position-2697: 'MainBottom C'
+    position-position-1720: 'MainBottom D'
+    position-position-5349: 'ExpandedBottom A'
+    position-position-9431: 'ExpandedBottom B'
+    position-position-9746: 'ExpandedBottom C'
+    position-position-9170: 'ExpandedBottom D'
+    position-position-3944: Fullwidth
+    position-position-3769: 'Extension A'
+    position-position-2063: 'Extension B'
+    position-position-6577: 'Extension C'
+    position-position-1027: 'Extension D'
+    position-position-2796: 'Bottom A'
+    position-position-7267: 'Bottom B'
+    position-position-5690: 'Bottom C'
+    position-position-7655: 'Bottom D'
+    position-position-4077: 'Footer A'
+    position-position-4480: 'Footer B'
+    position-position-9100: 'Footer C'
+    position-position-6570: 'Footer D'
+  content:
+    system-content-6489: 'Page Content'
+  branding:
+    branding-4483: Branding
+  totop:
+    totop-7311: 'To Top'
+  social:
+    social-8525: Social
+  mobile-menu:
+    mobile-menu-4892: 'Mobile Menu'
+inherit: {  }

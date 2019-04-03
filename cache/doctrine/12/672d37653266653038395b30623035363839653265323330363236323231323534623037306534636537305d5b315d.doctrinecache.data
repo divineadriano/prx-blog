@@ -1,0 +1,43 @@
+1554885804
+a:2:{s:7:"content";s:3059:"<p>We've recently released the stable version of Catapult SDK for the Golang platform. Here are the following features available:</p>
+<ul>
+<li>Generates a new KeyPair/Address</li>
+<li>Creates an account from Private Key</li>
+<li>Gets Account Information</li>
+<li>Gets Transactions Information </li>
+<li>Gets Mosaic Information</li>
+<li>Gets Namespace Information</li>
+<li>Gets Blockchain Information</li>
+<li>Gets Network information</li>
+<li>Transaction Signing and Announcement
+<ul>
+<li>Transfer Transaction</li>
+<li>Register Namespace Transaction</li>
+<li>Mosaic Definition Transaction</li>
+<li>Mosaic Supply Change Transaction</li>
+<li>Modify Multisig Account Transaction</li>
+<li>Aggregate Complete Transaction</li>
+<li>Aggregate Bonded Transaction</li>
+<li>Signing Announced Aggreagate Bonded Transaction</li>
+</ul></li>
+<li>Websockets</li>
+</ul>
+<p>Golang developers will now be able to use their favorite language to interact with Catapult Blockchain and build their awesome applications.</p>
+<p>Go is an open source programming language developed by Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a statically typed language with syntax loosely derived from that of C, adding garbage collection, type safety, some dynamic-typing capabilities, additional built-in types such as variable-length arrays &amp; key-value maps, and a large standard library. It's a general purpose programming language with advanced features and a clean syntax. Because of its wide availability on a variety of platforms, robust well-documented common library, and focus on good software engineering principles, it has been the defacto platform for learning programming.</p>
+<h2>Combination of Great Technologies</h2>
+<p>Golang, although recognized as a server side platform, has been used by recent innovation on decentralized technologies. Some notable technology stacks that use Go is Ethereum, which has an official Go Implementation, IPFS reference implementation was also developed using Go, Libp2p, Grpc, and Protobuf also has support and implementation using Golang.</p>
+<p>Awesome Applications written in Golang here: https://github.com/avelino/awesome-go</p>
+<h2>Repository and Wiki</h2>
+<p>Access the Repository Here: https://github.com/proximax-storage/nem2-sdk-go
+Github Wiki: https://github.com/proximax-storage/nem2-sdk-go/wiki/</p>
+<h2>Notable Contributors of nem2-go-sdk</h2>
+<ul>
+<li><a href="https://github.com/carlocayos">@carlocayos</a></li>
+<li><a href="https://github.com/alvin-reyes">@brambear</a></li>
+<li><a href="https://github.com/ruslanBik4">@ruslanBik4</a></li>
+<li><a href="https://github.com/Wondertan">@Wondertan</a></li>
+<li><a href="https://github.com/slackve">@slackve</a></li>
+</ul>
+<h2>Further Contribution</h2>
+<p>We'd love to get more people involved in the project. We have a few pending tasks and we believe there is always room for improvement. Please feel free to raise any issues or PR and we'll review your contribution. If it looks good, we might throw some bounty on it (no promises!)</p>
+<p>Enjoy!</p>";s:12:"content_meta";N;}

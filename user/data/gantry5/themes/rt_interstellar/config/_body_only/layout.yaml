@@ -1,0 +1,22 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/body-only.png'
+  name: _body_only
+  timestamp: 1553839458
+layout:
+  /body/:
+    -
+      - newsslider-9249
+    -
+      - system-content-2391
+structure:
+  body:
+    type: section
+    attributes:
+      boxed: 1
+content:
+  newsslider-9249:
+    title: 'News Slider'
+    attributes:
+      autoplay: enabled
+      delay: '5000'

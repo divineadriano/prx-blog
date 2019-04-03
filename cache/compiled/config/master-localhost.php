@@ -1,245 +1,129 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1551911835,
-    'checksum' => '1199a6039b5da009d9dc10c808b924b0',
+    'timestamp' => 1554280326,
+    'checksum' => 'b4b53d6b954d9d5f47d92d0c4bb25627',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1551199383
+                'modified' => 1553751019
             ],
-            'plugins/archive_plus' => [
-                'file' => 'user/config/plugins/archive_plus.yaml',
-                'modified' => 1551250661
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1553748712
             ],
-            'plugins/comments' => [
-                'file' => 'user/config/plugins/comments.yaml',
-                'modified' => 1551826947
-            ],
-            'plugins/diagrams' => [
-                'file' => 'user/config/plugins/diagrams.yaml',
-                'modified' => 1551250722
-            ],
-            'plugins/feed' => [
-                'file' => 'user/config/plugins/feed.yaml',
-                'modified' => 1551317077
-            ],
-            'plugins/ganalytics' => [
-                'file' => 'user/config/plugins/ganalytics.yaml',
-                'modified' => 1551250226
-            ],
-            'plugins/highlight' => [
-                'file' => 'user/config/plugins/highlight.yaml',
-                'modified' => 1551250223
+            'plugins/gantry5' => [
+                'file' => 'user/config/plugins/gantry5.yaml',
+                'modified' => 1553844233
             ],
             'plugins/language-selector' => [
                 'file' => 'user/config/plugins/language-selector.yaml',
-                'modified' => 1551319051
-            ],
-            'plugins/login' => [
-                'file' => 'user/config/plugins/login.yaml',
-                'modified' => 1551337986
+                'modified' => 1553837814
             ],
             'plugins/readingtime' => [
                 'file' => 'user/config/plugins/readingtime.yaml',
-                'modified' => 1551317349
+                'modified' => 1553830471
             ],
-            'plugins/relatedpages' => [
-                'file' => 'user/config/plugins/relatedpages.yaml',
-                'modified' => 1551826941
-            ],
-            'plugins/resize-images' => [
-                'file' => 'user/config/plugins/resize-images.yaml',
-                'modified' => 1551316787
-            ],
-            'plugins/simplesearch' => [
-                'file' => 'user/config/plugins/simplesearch.yaml',
-                'modified' => 1551336424
-            ],
-            'plugins/social-media-links' => [
-                'file' => 'user/config/plugins/social-media-links.yaml',
-                'modified' => 1551316590
-            ],
-            'plugins/social-meta-tags' => [
-                'file' => 'user/config/plugins/social-meta-tags.yaml',
-                'modified' => 1551316887
+            'plugins/social-seo-metatags' => [
+                'file' => 'user/config/plugins/social-seo-metatags.yaml',
+                'modified' => 1554266402
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1551199274
+                'modified' => 1553751017
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1551852465
+                'modified' => 1554277946
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1551199383
+                'modified' => 1553751019
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1551911827
-            ],
-            'themes/bootstrap-blog' => [
-                'file' => 'user/config/themes/bootstrap-blog.yaml',
-                'modified' => 1551340006
-            ],
-            'themes/casper' => [
-                'file' => 'user/config/themes/casper.yaml',
-                'modified' => 1551317546
-            ],
-            'themes/future' => [
-                'file' => 'user/config/themes/future.yaml',
-                'modified' => 1551318887
-            ],
-            'themes/quark' => [
-                'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1551317234
-            ],
-            'themes/receptar' => [
-                'file' => 'user/config/themes/receptar.yaml',
-                'modified' => 1551318102
+                'modified' => 1554280323
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1551195002
+                'modified' => 1553751208
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1551195002
+                'modified' => 1553751208
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1551852374
+                'modified' => 1553751208
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1551195002
+                'modified' => 1553751208
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1551250097
+                'modified' => 1553751208
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1551249878
-            ],
-            'plugins/archive_plus' => [
-                'file' => 'user/plugins/archive_plus/archive_plus.yaml',
-                'modified' => 1551249683
+                'modified' => 1553754819
             ],
             'plugins/comments' => [
                 'file' => 'user/plugins/comments/comments.yaml',
-                'modified' => 1551250878
-            ],
-            'plugins/diagrams' => [
-                'file' => 'user/plugins/diagrams/diagrams.yaml',
-                'modified' => 1551249723
+                'modified' => 1554264818
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1551195022
+                'modified' => 1553754834
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1551195022
-            ],
-            'plugins/facebook' => [
-                'file' => 'user/plugins/facebook/facebook.yaml',
-                'modified' => 1551250936
-            ],
-            'plugins/feed' => [
-                'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1551249632
+                'modified' => 1553748663
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1551195019
+                'modified' => 1553748705
             ],
-            'plugins/ganalytics' => [
-                'file' => 'user/plugins/ganalytics/ganalytics.yaml',
-                'modified' => 1551249665
-            ],
-            'plugins/header-by-taxonomy' => [
-                'file' => 'user/plugins/header-by-taxonomy/header-by-taxonomy.yaml',
-                'modified' => 1551316450
-            ],
-            'plugins/highlight' => [
-                'file' => 'user/plugins/highlight/highlight.yaml',
-                'modified' => 1551249713
-            ],
-            'plugins/langswitcher' => [
-                'file' => 'user/plugins/langswitcher/langswitcher.yaml',
-                'modified' => 1551250886
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1553844063
             ],
             'plugins/language-selector' => [
                 'file' => 'user/plugins/language-selector/language-selector.yaml',
-                'modified' => 1551316422
-            ],
-            'plugins/lightslider' => [
-                'file' => 'user/plugins/lightslider/lightslider.yaml',
-                'modified' => 1551335798
+                'modified' => 1553837786
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1551195037
+                'modified' => 1553754863
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1551195044
+                'modified' => 1553748663
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1551316783
+                'modified' => 1553748663
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1551195044
+                'modified' => 1553754856
             ],
             'plugins/readingtime' => [
                 'file' => 'user/plugins/readingtime/readingtime.yaml',
-                'modified' => 1551317311
-            ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1551250995
-            ],
-            'plugins/resize-images' => [
-                'file' => 'user/plugins/resize-images/resize-images.yaml',
-                'modified' => 1551316682
-            ],
-            'plugins/responsive-images' => [
-                'file' => 'user/plugins/responsive-images/responsive-images.yaml',
-                'modified' => 1551316701
-            ],
-            'plugins/seo' => [
-                'file' => 'user/plugins/seo/seo.yaml',
-                'modified' => 1551316709
+                'modified' => 1553830457
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1551250868
+                'modified' => 1553748684
             ],
-            'plugins/social-media-links' => [
-                'file' => 'user/plugins/social-media-links/social-media-links.yaml',
-                'modified' => 1551316520
-            ],
-            'plugins/social-meta-tags' => [
-                'file' => 'user/plugins/social-meta-tags/social-meta-tags.yaml',
-                'modified' => 1551316778
-            ],
-            'plugins/subscriber' => [
-                'file' => 'user/plugins/subscriber/subscriber.yaml',
-                'modified' => 1551316716
-            ],
-            'plugins/youtube' => [
-                'file' => 'user/plugins/youtube/youtube.yaml',
-                'modified' => 1551249599
+            'plugins/social-seo-metatags' => [
+                'file' => 'user/plugins/social-seo-metatags/social-seo-metatags.yaml',
+                'modified' => 1554266339
             ]
         ]
     ],
@@ -305,31 +189,8 @@ return [
                     ]
                 ]
             ],
-            'archive_plus' => [
-                'enabled' => false,
-                'built_in_css' => true,
-                'show' => [
-                    'counter' => true,
-                    'year' => true,
-                    'month' => true,
-                    'items' => true
-                ],
-                'limit' => [
-                    'year' => 2,
-                    'month' => 12,
-                    'items' => 40
-                ],
-                'order' => [
-                    'by' => 'date',
-                    'dir' => 'desc'
-                ],
-                'filter_combinator' => 'and',
-                'filters' => [
-                    'category' => 'blog'
-                ]
-            ],
             'comments' => [
-                'enabled' => false,
+                'enabled' => true,
                 'enable_on_routes' => [
                     0 => '/blog'
                 ],
@@ -416,36 +277,14 @@ return [
                     ]
                 ]
             ],
-            'diagrams' => [
-                'enabled' => false,
-                'align' => 'center',
-                'theme' => 'simple',
-                'font' => [
-                    'size' => 14,
-                    'color' => 'black'
-                ],
-                'line' => [
-                    'color' => 'black'
-                ],
-                'element' => [
-                    'color' => 'black'
-                ],
-                'condition' => [
-                    'yes' => 'yes',
-                    'no' => 'no'
-                ],
-                'gantt' => [
-                    'axis' => '%d-%m-%Y'
-                ]
-            ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'mail@example.com',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'mail@example.com',
                 'to_name' => NULL,
                 'mailer' => [
-                    'engine' => 'sendmail',
+                    'engine' => 'none',
                     'smtp' => [
                         'server' => 'localhost',
                         'port' => 25,
@@ -454,7 +293,7 @@ return [
                         'password' => ''
                     ],
                     'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail -bs'
+                        'bin' => '/usr/sbin/sendmail'
                     ]
                 ],
                 'content_type' => 'text/html',
@@ -465,19 +304,6 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
-            ],
-            'facebook' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'use_unitegallery_plugin' => true
-            ],
-            'feed' => [
-                'enabled' => false,
-                'limit' => 10,
-                'description' => 'My Feed Description',
-                'lang' => 'en-us',
-                'length' => 500,
-                'enable_json_feed' => false
             ],
             'form' => [
                 'enabled' => true,
@@ -498,100 +324,24 @@ return [
                     ]
                 ]
             ],
-            'ganalytics' => [
+            'gantry5' => [
                 'enabled' => true,
-                'trackingId' => '',
-                'position' => 'head',
-                'objectName' => 'ga',
-                'forceSsl' => false,
-                'async' => false,
-                'anonymizeIp' => false,
-                'blockedIps' => [
-                    
-                ],
-                'cookieConfig' => false,
-                'cookieName' => '_ga',
-                'cookieDomain' => '',
-                'cookieExpires' => 63072000,
-                'debugStatus' => false,
-                'debugTrace' => false
-            ],
-            'header-by-taxonomy' => [
-                'enabled' => true,
-                'overwrite' => false,
-                'sets' => [
-                    0 => [
-                        'criteria' => [
-                            0 => [
-                                'taxonomy' => 'category',
-                                'values' => [
-                                    0 => 'Food'
-                                ],
-                                'combinator' => 'or'
-                            ],
-                            1 => [
-                                'taxonomy' => 'tag',
-                                'values' => [
-                                    0 => 'Indian'
-                                ],
-                                'combinator' => 'or'
-                            ]
-                        ],
-                        'combinator' => 'and',
-                        'overwrite' => true,
-                        'header' => [
-                            'metadata.refresh' => 300,
-                            'metadata.key2' => 'value2',
-                            'pubmed.active' => true,
-                            'test.var' => 'Hi!'
-                        ]
-                    ]
-                ]
-            ],
-            'highlight' => [
-                'enabled' => true,
-                'theme' => 'default',
-                'lines' => false
-            ],
-            'langswitcher' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'untranslated_pages_behavior' => 'none'
+                'production' => true,
+                'use_media_folder' => true,
+                'offline' => false,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7.0,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
             ],
             'language-selector' => [
                 'enabled' => true,
                 'built_in_css' => true,
                 'untranslated_pages_behavior' => 'none',
-                'button_display' => 'flag',
-                'select_display' => 'flag'
-            ],
-            'lightslider' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'slider_type' => 'text',
-                'type_text_height' => 'auto',
-                'type_text_vertical_padding' => '80px',
-                'type_text_horizontal_padding' => '50px',
-                'type_text_brightness' => 0,
-                'item' => 1,
-                'slideMove' => 1,
-                'slideMargin' => 0,
-                'loop' => 'false',
-                'mode' => 'fade',
-                'controls' => 'true',
-                'keyPress' => 'true',
-                'auto' => 'true',
-                'pause' => 2000,
-                'speed' => 1000,
-                'pager' => 'true',
-                'gallery' => 'false',
-                'gallery_thumb_width' => 100,
-                'gallery_thumb_height' => 100,
-                'gallery_margin' => 15,
-                'gallery_thumb_margin' => 5,
-                'enableTouch' => 'true',
-                'enableDrag' => 'true',
-                'pauseOnHover' => 'false'
+                'button_display' => 'default',
+                'select_display' => 'default'
             ],
             'login' => [
                 'enabled' => true,
@@ -614,12 +364,12 @@ return [
                     'timeout' => 604800,
                     'name' => 'grav-rememberme'
                 ],
-                'max_pw_resets_count' => 0,
+                'max_pw_resets_count' => 2,
                 'max_pw_resets_interval' => 60,
-                'max_login_count' => 0,
-                'max_login_interval' => 2,
+                'max_login_count' => 5,
+                'max_login_interval' => 10,
                 'user_registration' => [
-                    'enabled' => true,
+                    'enabled' => false,
                     'fields' => [
                         0 => 'username',
                         1 => 'password',
@@ -641,10 +391,10 @@ return [
                         'validate_password1_and_password2' => true,
                         'set_user_disabled' => false,
                         'login_after_registration' => false,
-                        'send_activation_email' => true,
+                        'send_activation_email' => false,
                         'manually_enable' => false,
                         'send_notification_email' => false,
-                        'send_welcome_email' => true
+                        'send_welcome_email' => false
                     ]
                 ]
             ],
@@ -669,110 +419,18 @@ return [
             ],
             'readingtime' => [
                 'enabled' => true,
-                'words_per_minute' => 200,
+                'words_per_minute' => 100,
                 'format' => '{minutes_short_count} {minutes_text}, {seconds_short_count} {seconds_text}',
                 'round' => 'minutes'
-            ],
-            'relatedpages' => [
-                'enabled' => false,
-                'limit' => 3,
-                'show_score' => true,
-                'score_threshold' => 20,
-                'filter' => [
-                    'items' => [
-                        '@page' => '/blog'
-                    ],
-                    'order' => [
-                        'by' => 'date',
-                        'dir' => 'asc'
-                    ]
-                ],
-                'page_in_filter' => false,
-                'explicit_pages' => [
-                    'process' => false,
-                    'score' => 100
-                ],
-                'taxonomy_match' => [
-                    'taxonomy' => [
-                        0 => [
-                            'tags' => [
-                                0 => 'tech talks'
-                            ]
-                        ]
-                    ],
-                    'taxonomy_taxonomy' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => '50',
-                            2 => '75',
-                            3 => '100'
-                        ]
-                    ],
-                    'taxonomy_content' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => '20',
-                            2 => '30',
-                            3 => '45',
-                            4 => '60',
-                            5 => '70',
-                            6 => '80',
-                            7 => '90',
-                            8 => '100'
-                        ]
-                    ]
-                ],
-                'content_match' => [
-                    'process' => false
-                ]
-            ],
-            'resize-images' => [
-                'enabled' => true,
-                'adapter' => 'imagick',
-                'remove_original' => false,
-                'sizes' => [
-                    0 => [
-                        'width' => 640,
-                        'quality' => 92
-                    ],
-                    1 => [
-                        'width' => 1000,
-                        'quality' => 90
-                    ],
-                    2 => [
-                        'width' => 1500,
-                        'quality' => 87
-                    ],
-                    3 => [
-                        'width' => 2500,
-                        'quality' => 85
-                    ],
-                    4 => [
-                        'width' => 3500,
-                        'quality' => 82
-                    ]
-                ]
-            ],
-            'responsive-images' => [
-                'enabled' => true
-            ],
-            'seo' => [
-                'enabled' => true,
-                'article' => true,
-                'restaurant' => true,
-                'event' => true,
-                'organization' => true,
-                'musicevent' => true,
-                'person' => true
             ],
             'simplesearch' => [
                 'enabled' => true,
                 'built_in_css' => true,
                 'built_in_js' => true,
                 'display_button' => false,
-                'min_query_length' => 20,
+                'min_query_length' => 3,
                 'route' => '/search',
-                'search_content' => 'raw',
+                'search_content' => 'rendered',
                 'template' => 'simplesearch_results',
                 'filters' => [
                     'category' => NULL
@@ -784,56 +442,32 @@ return [
                     'dir' => 'desc'
                 ]
             ],
-            'social-media-links' => [
+            'social-seo-metatags' => [
                 'enabled' => true,
-                'built_in_css' => true,
-                'social_pages' => [
-                    'pages' => [
-                        'facebook' => [
-                            'icon' => 'facebook',
-                            'title' => 'Facebook',
-                            'position' => '1',
-                            'url' => 'https://www.facebook.com/ProximaXio/'
+                'seo' => [
+                    'robots' => 'without',
+                    'length' => 20,
+                    'taxonomy' => [
+                        'enabled' => true
+                    ],
+                    'page_content' => [
+                        'enabled' => false
+                    ],
+                    'keywords' => [
+                        'taxonomy' => [
+                            'enabled' => true
                         ],
-                        'twitter' => [
-                            'icon' => 'twitter',
-                            'title' => 'Twitter',
-                            'position' => '2',
-                            'url' => 'https://twitter.com/ProximaXio'
+                        'page_content' => [
+                            'enabled' => true
                         ],
-                        'instagram' => [
-                            'icon' => 'instagram',
-                            'title' => 'Instagram',
-                            'position' => '3',
-                            'url' => 'https://www.instagram.com/proximaxio/'
-                        ],
-                        'pinterest' => [
-                            'icon' => 'pinterest',
-                            'title' => 'Pinterest',
-                            'position' => '4'
-                        ],
-                        'github' => [
-                            'icon' => 'github',
-                            'title' => 'GitHub',
-                            'position' => '5',
-                            'url' => 'https://github.com/proximax-storage'
-                        ],
-                        'linkedin' => [
-                            'icon' => 'linkedin',
-                            'title' => 'LinkedIn',
-                            'position' => '6'
-                        ]
+                        'length' => 20
                     ]
-                ]
-            ],
-            'social-meta-tags' => [
-                'enabled' => true,
+                ],
                 'social_pages' => [
                     'pages' => [
                         'twitter' => [
                             'enabled' => true,
-                            'type' => 'summary_large_image',
-                            'aboutme' => false,
+                            'type' => 'summary',
                             'username' => '@ProximaXio'
                         ],
                         'facebook' => [
@@ -842,36 +476,6 @@ return [
                         ]
                     ]
                 ]
-            ],
-            'subscriber' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'email_from' => 'user@example.com',
-                'email_to' => 'user@example.com'
-            ],
-            'youtube' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'add_editor_button' => true,
-                'player_parameters' => [
-                    'autoplay' => 0,
-                    'cc_load_policy' => 0,
-                    'color' => 'red',
-                    'controls' => 1,
-                    'disablekb' => 0,
-                    'enablejsapi' => 0,
-                    'fs' => 1,
-                    'hl' => '',
-                    'iv_load_policy' => 1,
-                    'loop' => 0,
-                    'modestbranding' => 0,
-                    'origin' => '',
-                    'playsinline' => 0,
-                    'rel' => 1,
-                    'showinfo' => 1,
-                    'vq' => 'default'
-                ],
-                'privacy_enhanced_mode' => false
             ]
         ],
         'media' => [
@@ -1177,13 +781,13 @@ return [
                 3 => 'js',
                 4 => 'exe'
             ],
-            'salt' => '2mDCZSEMu8BVRX'
+            'salt' => '2cY8n4Lfyg6uEI'
         ],
         'site' => [
             'title' => 'ProximaX',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'ProximaX',
+                'name' => 'ProximaXio',
                 'email' => 'info@proximax.io'
             ],
             'taxonomies' => [
@@ -1191,38 +795,19 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Official ProximaX Blog'
+                'description' => 'ProximaX Blockchain Reimagined and Evolved',
+                'Keywords' => 'ProximaX, ProximaX Sirius, blockchain technology, Blockchain powered, Blockchain protocol, Distributed ledger technology, DLT, dlt, Distributed ledger, Decentralized database, Decentralized database technology, Decentralized storage, Decentralized storage technology, Decentralized supply chain, Decentralized streaming, Integrated and distributed ledger technology, IaDLt, Peer-to-peer technology, Peer to peer streaming, Peer to peer, Consensus mechanism, Consensus protocol, Asymmetric encryption, Data encryption, Off-chain storage, Off-chain streaming, Distributed File Management System, DFMS, Super Contract, Immutability, Data encryption, Encrypted by default, Permissioned, Permission based, Tokenomics, Token economics, Crypto trading, Cryptocurrency, Supply chain, CSD, Central Securities Depository, STO, Security Token Offering, Decentralized supply chain, STO, Private blockchain, DAapps, Decentralized applications, Blockchain apps, Streaming Layer, Streaming Node, Storage Layer, Storage Node, Sharded Information, Sharded Data, Use Case, Use Cases, Blockchain Consensus, Consensus Protocol, Enterprise Solution, Enterprise Solutions, System Integration, Transparency, Immutability, Irreversibility, Traceability, Proof of Bandwidth, Proof of Conflation Aggregate, Proof of Storage, Encryption, Data Security, Data Privacy, Cyber Security, Hackers, Hacking, Nodes, Public Chain, Private Chain, Hybrid Chain, Public & Private Chain, Catapult, SDK, SDKs, Software Development Kits, Super Contract, Super Contracts, Smart Contract, Smart Contracts, Peer-to-Peer , Peer-to-Peer Storage, Software-as-a-Service, SaaS, Lon Wong, PSP, PeerStream, PeerStream Protocol, Anonymous streaming, New Economic Model, New Economic Model Foundation, 482.solutions, Ministry of Community Development UAE, Dragonfly  Fintech, Xarcade, Testnet, Test network, Mainnet, Main network, Tokenomics, Token Economics, XPX, Crypto Currency, Crypto Currencies, Crypto Exchange, Crypto Exchanges, Bitcoin, Zero trust, Escrow, Onchain escrow, Trustless swaps, Trustless, Onion routing, SIM Identity attestation, ProximaX KYC, KYC, Know Your Customer, Know Your Counter Party, Onboarding Customer, Customer Onboarding, Identity Management, Identity Management System, Identity Verification, Identity Authentication, Anti-Money Laundering, AML, RegTech, Regulation Tech, Regulation Technology, GDPR, General Data Protection Regulation, EU GDPR, European Union GDPR, European Union General Data Protection Regulation, Knowyourcustomer, Compliance system, Compliance systems, , ProximaX Suite, Office Suite, Office Collaboration, Workforce Collaboration, Collaboration, Real Time Collaboration, Office suite, word processing, Office collaboration, File sharing, Decentralized file sharing, Real Time Editing, Office Productivity, Productivity, Office Applications, Microsoft Office, Word Processor, Word Processing, Microsoft Word Spreadsheet, Spreadsheets, Excel, Microsoft Excel, Presentation, Presentations, Microsoft Powerpoint, Powerpoint, Keynote, Collabora Office, LibreOffice, Collabora Productivity, Collabora Productivity Ltd'
             ],
             'summary' => [
                 'enabled' => true,
                 'format' => 'short',
-                'size' => 100,
+                'size' => 250,
                 'delimiter' => '==='
             ],
             'redirects' => NULL,
             'routes' => NULL,
             'blog' => [
                 'route' => '/blog'
-            ],
-            'languages' => [
-                'home_redirect' => [
-                    'include_lang' => true,
-                    'include_route' => false
-                ]
-            ],
-            'slider' => [
-                0 => [
-                    'image' => 'slider3.jpg',
-                    'url' => '#'
-                ],
-                1 => [
-                    'image' => 'slider1.jpg',
-                    'url' => '#'
-                ],
-                2 => [
-                    'image' => 'slider2.jpg',
-                    'url' => '#'
-                ]
             ]
         ],
         'streams' => [
@@ -1250,7 +835,7 @@ return [
         ],
         'system' => [
             'absolute_urls' => false,
-            'timezone' => 'Asia/Singapore',
+            'timezone' => '',
             'default_locale' => NULL,
             'param_sep' => ':',
             'wrapped_site' => false,
@@ -1264,39 +849,16 @@ return [
             'languages' => [
                 'supported' => [
                     0 => 'en',
-                    1 => 'ko',
-                    2 => 'fr',
-                    3 => 'ja',
-                    4 => 'fi',
-                    5 => 'lt',
-                    6 => 'ru',
-                    7 => 'ca',
-                    8 => 'es',
-                    9 => 'ar',
-                    10 => 'cs',
-                    11 => 'da',
-                    12 => 'de',
-                    13 => 'el',
-                    14 => 'hr',
-                    15 => 'it',
-                    16 => 'nb',
-                    17 => 'nl',
-                    18 => 'pl',
-                    19 => 'pt',
-                    20 => 'ro',
-                    21 => 'sk',
-                    22 => 'sv',
-                    23 => 'th',
-                    24 => 'tr',
-                    25 => 'uk',
-                    26 => 'vi',
-                    27 => 'zh'
+                    1 => 'zh',
+                    2 => 'ja',
+                    3 => 'ko',
+                    4 => 'es'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,
                 'translations_fallback' => true,
-                'session_store_active' => true,
-                'http_accept_language' => true,
+                'session_store_active' => false,
+                'http_accept_language' => false,
                 'override_locale' => false
             ],
             'home' => [
@@ -1304,7 +866,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'receptar',
+                'theme' => 'rt_requiem',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -1313,7 +875,7 @@ return [
                     'count' => 20
                 ],
                 'dateformat' => [
-                    'default' => 'm/d/Y h:i a',
+                    'default' => NULL,
                     'short' => 'jS M Y',
                     'long' => 'F jS \\a\\t g:ia'
                 ],
@@ -1415,18 +977,17 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => 1,
+                'display' => 0,
                 'log' => true
             ],
             'debugger' => [
                 'enabled' => false,
                 'shutdown' => [
                     'close_connection' => true
-                ],
-                'twig' => true
+                ]
             ],
             'images' => [
-                'default_image_quality' => 84,
+                'default_image_quality' => 85,
                 'cache_all' => false,
                 'cache_perms' => '0755',
                 'debug' => false,
@@ -1447,7 +1008,7 @@ return [
                 'enabled' => true,
                 'initialize' => true,
                 'timeout' => 1800,
-                'name' => 'proximax',
+                'name' => 'grav-site',
                 'secure' => false,
                 'httponly' => true,
                 'split' => true,
@@ -1463,125 +1024,6 @@ return [
             'strict_mode' => [
                 'yaml_compat' => true,
                 'twig_compat' => true
-            ]
-        ],
-        'themes' => [
-            'bootstrap-blog' => [
-                'enabled' => true,
-                'cdn_enabled' => false,
-                'back_to_top_button' => true,
-                'favicon' => [
-                    'user/themes/bootstrap-blog/images/ProximaX Emblem Embossed_Ghost.png' => [
-                        'name' => 'ProximaX Emblem Embossed_Ghost.png',
-                        'type' => 'image/png',
-                        'size' => 1585087,
-                        'path' => 'user/themes/bootstrap-blog/images/ProximaX Emblem Embossed_Ghost.png'
-                    ]
-                ],
-                'navbar' => [
-                    'image' => [
-                        'user/themes/bootstrap-blog/images/181102_ProximaX Logo Colour.png' => [
-                            'name' => '181102_ProximaX Logo Colour.png',
-                            'type' => 'image/png',
-                            'size' => 5135,
-                            'path' => 'user/themes/bootstrap-blog/images/181102_ProximaX Logo Colour.png'
-                        ]
-                    ],
-                    'style' => 'cyan',
-                    'override_page_style' => true,
-                    'dropdown' => true,
-                    'sticky' => false,
-                    'display_site_name' => false
-                ],
-                'sidebar' => [
-                    'enabled' => false,
-                    'align' => 'left',
-                    'twitter' => [
-                        'enabled' => true,
-                        'user' => '@ProximaXio',
-                        'height' => 600,
-                        'theme' => 'light'
-                    ],
-                    'about' => [
-                        'enabled' => true,
-                        'title' => 'ProximaX',
-                        'content' => 'ProximaX is a next generation platform solution with an Integrated and Distributed Ledger Technology (IaDLT). The ProximaX Sirius platform is an integrated assembly of proven technologies for enterprises to develop applications with superior design while substantially reducing the total cost of ownership and time to market.',
-                        'page' => '/home'
-                    ]
-                ],
-                'item' => [
-                    'show_prev_next' => true,
-                    'related_pages' => true,
-                    'category' => 'category',
-                    'tag' => 'tag'
-                ],
-                'comments' => [
-                    'enabled' => true,
-                    'disqus_shortname' => 'proximaxio'
-                ],
-                'footer' => [
-                    'style' => 'dark',
-                    'text' => '2019 © <a href="https://proximax.io" target="_blank">ProximaX</a>'
-                ],
-                'simplesearch' => [
-                    'layout' => 'cards'
-                ]
-            ],
-            'casper' => [
-                'enabled' => true,
-                'dropdown' => [
-                    'enabled' => false
-                ],
-                'footer' => 'Copyright Proximax 2019. All rights reserved.',
-                'social_twitter' => 'ProximaXio',
-                'social_facebook' => 'ProximaXio',
-                'social_github' => 'proximax-storage',
-                'social_youtube' => 'UCky9HP0VlqsnGQWrbMPFVnw',
-                'social_instagram' => 'proximaxio',
-                'favicon' => [
-                    'user/themes/haywire/images/favicon/PROXIMAX-512x512.png' => [
-                        'name' => 'PROXIMAX-512x512.png',
-                        'type' => 'image/png',
-                        'size' => 78691,
-                        'path' => 'user/themes/haywire/images/favicon/PROXIMAX-512x512.png'
-                    ]
-                ]
-            ],
-            'future' => [
-                'enabled' => true,
-                'color' => 'blue',
-                'dropdown' => [
-                    'enabled' => true
-                ]
-            ],
-            'quark' => [
-                'enabled' => true,
-                'production-mode' => true,
-                'grid-size' => 'grid-md',
-                'header-fixed' => true,
-                'header-animated' => true,
-                'header-dark' => true,
-                'header-transparent' => false,
-                'sticky-footer' => true,
-                'blog-page' => '/blog',
-                'spectre' => [
-                    'exp' => true,
-                    'icons' => true
-                ],
-                'custom_logo' => [
-                    'user/themes/quark/images/logo/181102_ProximaX Logo Colour.png' => [
-                        'name' => '181102_ProximaX Logo Colour.png',
-                        'type' => 'image/png',
-                        'size' => 8146,
-                        'path' => 'user/themes/quark/images/logo/181102_ProximaX Logo Colour.png'
-                    ]
-                ]
-            ],
-            'receptar' => [
-                'enabled' => true,
-                'showchildpages' => [
-                    'enabled' => true
-                ]
             ]
         ]
     ]

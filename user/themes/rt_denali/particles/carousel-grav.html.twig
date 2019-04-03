@@ -1,0 +1,40 @@
+{# Load Content From Grav #}
+{% set attr_extra = particle.extra|attribute_array %}
+{% set article_settings = particle.article %}
+{% set filter = article_settings.filter %}
+{% set sort = article_settings.sort %}
+{% set limit = article_settings.limit %}
+{% set start = limit.start %}
+{% set display = article_settings.display %}
+{% set collection = grav.page.collection(
+    {
+    items: {'@taxonomy.category': filter.categories|split(' ')},
+    order: {by: sort.orderby, dir: sort.ordering},
+    url_taxonomy_filters: false
+    },
+false) %}
+{% set total = collection.count() %}
+{% set pages = collection.slice(start, limit.total) %}
+
+{% for page in pages %}
+    {% if display.image.enabled %}
+        {% if display.image.enabled == 'intro' %}
+            {% set file = page.header.image.summary.enabled|defined(false) ? (page.header.image.summary.file ?: true) %}
+        {% elseif display.image.enabled == 'full' %}
+            {% set file = page.header.image.text.enabled|defined(false) ? (page.header.image.text.file ?: true) %}
+        {% endif %}
+
+        {% set image = file is same as(true) ? page.media.images|first : (file ? page.media.images[file]) %}
+    {% endif %}
+
+    <div class="g-carousel-item">
+        <div class="g-carousel-image-wrapper">
+            <a {% if article_settings.linkto == 'link' %}href="{{ url(page.url)|e }}"{% else %}href="{{ url(image)|e }}" data-rel="lightcase" data-lc-options='{"maxWidth": "100%", "maxHeight": "100%"}'{% endif %}class="g-carousel-image-link">
+                <img src="{{ image.url }}" alt="{{ page.title|e }}"/>
+                {% if display.title.enabled and page.title %}
+                    <span class="g-carousel-title">{{ (display.title.limit ? page.title|e|truncate_text(display.title.limit) : page.title|e)|raw }}</span>
+                {% endif %}
+            </a>
+        </div>
+    </div>
+{% endfor %}

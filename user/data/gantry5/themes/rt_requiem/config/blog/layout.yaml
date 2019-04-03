@@ -1,0 +1,270 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1446640956
+layout:
+  /top/:
+    -
+      - system-messages-2777
+  /navigation/:
+    -
+      - menu-6934
+  /header/:
+    -
+      - infolist-8633
+  /showcase/: {  }
+  /above/: {  }
+  /utility/: {  }
+  /feature/: {  }
+  /container-5169/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-1082
+      -
+        'mainbar 75':
+          -
+            - system-content-1050
+          -
+            - social-5632
+      -
+        'aside 5':
+          -
+            - position-position-9839
+  /expanded/: {  }
+  /extension/: {  }
+  /bottom/:
+    -
+      - infolist-1184
+  /footer/:
+    -
+      - 'position-position-5071 33.3'
+      - 'position-position-6768 33.3'
+      - 'position-position-5420 33.3'
+  /copyright/:
+    -
+      - 'branding-3234 33.3'
+      - 'copyright-7141 33.3'
+      - 'totop-7016 33.3'
+  /fixedside/:
+    -
+      - logo-7684
+    -
+      - social-9373
+  offcanvas:
+    -
+      - mobile-menu-2145
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-5169:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-2777:
+    block:
+      variations: 'nomarginall nopaddingall'
+  menu-6934:
+    block:
+      class: mainnav-center
+  infolist-8633:
+    title: 'Blog - Header'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Read the Latest News'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          icon: ''
+          readmoreclass: ''
+          title: 'Our Blog'
+  position-position-1082:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  social-5632:
+    attributes:
+      css:
+        class: social
+      title: Share
+      target: _blank
+      items:
+        -
+          icon: 'fa fa-facebook'
+          text: ''
+          link: 'https://www.facebook.com/ProximaXio/'
+          name: Facebook
+        -
+          icon: 'fa fa-twitter'
+          text: ''
+          link: 'https://twitter.com/ProximaXio'
+          name: Twitter
+        -
+          icon: 'fa fa-github'
+          text: ''
+          link: 'https://github.com/proximax-storage'
+          name: Github
+        -
+          icon: 'fa fa-telegram'
+          text: ''
+          link: 'http://t.me/ProximaXio'
+          name: Telegram
+  position-position-9839:
+    title: 'Aside - Blog'
+    attributes:
+      enabled: 0
+      key: aside-blog
+  infolist-1184:
+    title: 'Blog - Share Some Ideas'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Do You Have a Tip or an Idea for a Story? Tell Us About It.'
+          tag: ''
+          subtag: ''
+          label: 'Submit Article'
+          link: 'http://www.rockettheme.com/grav/themes/requiem'
+          icon: ''
+          readmoreclass: ''
+          title: 'Share Some Ideas'
+  position-position-5071:
+    title: 'Footer A'
+    attributes:
+      key: footer-a
+  position-position-6768:
+    title: 'Footer B'
+    attributes:
+      key: footer-b
+  position-position-5420:
+    title: 'Footer C'
+    attributes:
+      key: footer-c
+  branding-3234:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7016:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-7684:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-9373:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-2145:
+    title: 'Mobile Menu'

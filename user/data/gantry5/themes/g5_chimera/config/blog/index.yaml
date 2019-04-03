@@ -1,0 +1,122 @@
+name: blog
+timestamp: 1553844361
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1553839470
+positions:
+  topfullwidth: 'Top Fullwidth'
+  top-a: 'Top A'
+  top-b: 'Top B'
+  top-c: 'Top C'
+  top-d: 'Top D'
+  showcase-a: 'Showcase A'
+  showcase-b: 'Showcase B'
+  showcase-c: 'Showcase C'
+  showcase-d: 'Showcase D'
+  expandedbottom-a: 'ExpandedBottom A'
+  expandedbottom-b: 'ExpandedBottom B'
+  expandedbottom-c: 'ExpandedBottom C'
+  expandedbottom-d: 'ExpandedBottom D'
+sections:
+  navigation: Navigation
+  slideshow: Slideshow
+  topfullwidth: TopFullWidth
+  top: Top
+  showcase: Showcase
+  feature: Feature
+  utility: Utility
+  expandedtop: Expandedtop
+  maintop: Maintop
+  mainbody: Mainbody
+  sidebar: Sidebar
+  mainbottom: Mainbottom
+  expandedbottom: Expandedbottom
+  fullwidth: FullWidth
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  slideshow:
+    slideshow-6287: Slideshow
+  custom:
+    custom-6461: 'FP Feature'
+    custom-7272: 'FP Utility B'
+    custom-1000: 'FP MainTop'
+    custom-6227: 'FP Extension B'
+    custom-5563: 'Custom HTML'
+    custom-6834: 'Custom HTML'
+    custom-1903: 'Custom HTML'
+    custom-2755: 'Custom HTML'
+    custom-8962: 'Custom HTML'
+  iconlist:
+    iconlist-1446: 'Icon List'
+  contenttabs:
+    contenttabs-3526: 'Content Tabs'
+  progressbar:
+    progressbar-2215: 'Progress Bar'
+  content:
+    system-content-7768: 'Page Content'
+  stripsslider:
+    stripsslider-7293: 'Strips Slider'
+  slider:
+    slider-4059: Slider
+  pricingtable:
+    pricingtable-6536: 'Pricing Table'
+  logo:
+    logo-2239: Logo
+  menu:
+    menu-7815: Menu
+  position:
+    position-position-2716: 'Top Fullwidth'
+    position-position-3216: 'Top A'
+    position-position-5858: 'Top B'
+    position-position-6773: 'Top C'
+    position-position-5184: 'Top D'
+    position-position-6020: 'Showcase A'
+    position-position-1223: 'Showcase B'
+    position-position-3401: 'Showcase C'
+    position-position-6309: 'Showcase D'
+    position-position-8513: 'ExpandedBottom A'
+    position-position-8029: 'ExpandedBottom B'
+    position-position-6128: 'ExpandedBottom C'
+    position-position-5102: 'ExpandedBottom D'
+  branding:
+    branding-5449: Branding
+  totop:
+    totop-1072: 'To Top'
+  social:
+    social-1998: Social
+  mobile-menu:
+    mobile-menu-5120: 'Mobile Menu'
+inherit:
+  default:
+    navigation: navigation
+    topfullwidth: topfullwidth
+    top: top
+    showcase: showcase
+    expandedbottom: expandedbottom
+    copyright: copyright
+    offcanvas: offcanvas
+    logo-2239: logo-5679
+    menu-7815: menu-2875
+    position-position-2716: position-position-7023
+    position-position-3216: position-position-5939
+    position-position-5858: position-position-7490
+    position-position-6773: position-position-2336
+    position-position-5184: position-position-7291
+    position-position-6020: position-position-2621
+    position-position-1223: position-position-4680
+    position-position-3401: position-position-4839
+    position-position-6309: position-position-1217
+    position-position-8513: position-position-5349
+    position-position-8029: position-position-9431
+    position-position-6128: position-position-9746
+    position-position-5102: position-position-9170
+    branding-5449: branding-4483
+    totop-1072: totop-7311
+    social-1998: social-8525
+    mobile-menu-5120: mobile-menu-4892

@@ -1,0 +1,404 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1446640956
+layout:
+  /top/:
+    -
+      - system-messages-2777
+  /navigation/:
+    -
+      - 'position-position-9886 10'
+      - 'menu-6934 80'
+      - 'position-position-6679 10'
+  /header/:
+    -
+      - infolist-5245
+  /showcase/: {  }
+  /above/:
+    -
+      - blockcontent-9746
+  /utility/: {  }
+  /feature/: {  }
+  /container-5169/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-1082
+      -
+        'mainbar 60':
+          -
+            - system-content-5020
+      -
+        'aside 20':
+          -
+            - custom-2978
+          -
+            - contact-5139
+          -
+            - position-position-9839
+  /expanded/: {  }
+  /extension/:
+    -
+      - infolist-7722
+  /bottom/:
+    -
+      - infolist-4228
+  /footer/:
+    -
+      - 'position-position-7712 33.3'
+      - 'position-position-5470 33.3'
+      - 'position-position-8729 33.3'
+  /copyright/:
+    -
+      - 'branding-3234 33.3'
+      - 'copyright-7141 33.3'
+      - 'totop-7016 33.3'
+  /fixedside/:
+    -
+      - logo-7684
+    -
+      - social-9373
+  offcanvas:
+    -
+      - mobile-menu-2145
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-5169:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-2777:
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-position-9886:
+    title: 'MainNav Left'
+    attributes:
+      key: mainnav-left
+    block:
+      class: mainnav-left
+  menu-6934:
+    block:
+      class: mainnav-center
+  position-position-6679:
+    title: 'MainNav Right'
+    attributes:
+      key: mainnav-right
+    block:
+      class: mainnav-right
+  infolist-5245:
+    title: 'Contact - Header'
+    attributes:
+      class: 'center g-layercontent noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Keep in Touch with Us'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: ''
+          icon: ''
+          readmoreclass: ''
+          title: 'Contact Us'
+  blockcontent-9746:
+    title: 'Contact - Email - Phone - Chat'
+    attributes:
+      subcontents:
+        -
+          name: '<br />Email'
+          icon: 'fa fa-envelope fa-3x'
+          img: ''
+          subtitle: ''
+          description: 'Collaboratively administrate empowered markets via available great networks.'
+          class: 'center box-blue'
+          button: 'Send Email'
+          buttonlink: '#'
+          buttonclass: button-4
+          title: Email
+        -
+          name: '<br />Phone'
+          icon: 'fa fa-phone fa-3x'
+          img: ''
+          subtitle: ''
+          description: 'Collaboratively administrate empowered markets via available great networks.'
+          class: 'center box-orange'
+          button: 'Talk Now'
+          buttonlink: '#'
+          buttonclass: button-4
+          title: Phone
+        -
+          name: '<br />Chat'
+          icon: 'fa fa-comments fa-3x'
+          img: ''
+          subtitle: ''
+          description: 'Collaboratively administrate empowered markets via available great networks.'
+          class: 'center box-grey'
+          button: 'Ask Us'
+          buttonlink: '#'
+          buttonclass: button-4
+          title: Chat
+  position-position-1082:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  custom-2978:
+    title: 'Requiem Info'
+    attributes:
+      html: "<p><img src=\"gantry-media://rocketlauncher/pages/contact/img-01.jpg\" alt=\"image\"></p>\n<p><strong>Requiem</strong> is only available as part of the Club Subscription. Please use the RocketLauncher to install an equivalent of the demo onto your site.</p>"
+  contact-5139:
+    title: 'Contact Details'
+    attributes:
+      title: 'Contact Details'
+      contactitems:
+        -
+          icon: 'fa fa-phone fa-fw'
+          text: +1(555)-555-555
+          label: 'Call Us'
+        -
+          icon: 'fa fa-map-marker fa-fw'
+          text: '555 RocketTheme Blvd, CO'
+          label: Office
+        -
+          icon: 'fa fa-envelope fa-fw'
+          text: hello@no-reply.com
+          label: 'Say Hi'
+  position-position-9839:
+    title: Aside
+    attributes:
+      key: aside
+  infolist-7722:
+    title: 'Common Queries and Questions'
+    attributes:
+      title: 'Common Queries and Questions'
+      cols: g-2cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '1. What prices are your services?'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '2. What is your refund policy?'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '3. What payment methods do you accept?'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '4. What delivery options do you offer?'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '5. What support options are available?'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: '6. What additional services are available?'
+  infolist-4228:
+    title: 'Contact - Got Billing and Payments Questions?'
+    attributes:
+      class: 'center g-layercontent'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: header
+          imagestyle: compact
+          desc: 'Email Us for Questions Involving Payments, Billing, and Membership.'
+          tag: ''
+          subtag: ''
+          label: 'Send Email'
+          link: 'http://www.rockettheme.com/grav/themes/requiem'
+          icon: ''
+          readmoreclass: ''
+          title: 'Got Billing and Payment Questions?'
+  position-position-7712:
+    title: 'Footer A'
+    attributes:
+      key: footer-a
+  position-position-5470:
+    title: 'Footer B'
+    attributes:
+      key: footer-b
+  position-position-8729:
+    title: 'Footer C'
+    attributes:
+      key: footer-c
+  branding-3234:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7016:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-7684:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-9373:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-2145:
+    title: 'Mobile Menu'

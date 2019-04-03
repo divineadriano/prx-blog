@@ -1,0 +1,618 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: typography
+  timestamp: 1446104665
+layout:
+  /top/:
+    -
+      - system-messages-1961
+  /navigation/:
+    -
+      - 'position-4350 10'
+      - 'menu-1533 80'
+      - 'position-6155 10'
+  /header/: {  }
+  /showcase/: {  }
+  /above/: {  }
+  /utility/: {  }
+  /feature/: {  }
+  /container-7450/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-3745
+      -
+        'mainbar 60':
+          -
+            - 'infolist-4038 50'
+            - 'animatedblock-4125 50'
+          -
+            - 'testimonial-3208 50'
+            - 'infolist-2423 50'
+          -
+            - 'infolist-5985 50'
+            - 'gridpromogallery-3550 50'
+          -
+            - 'gridcontent-1893 50'
+            - 'infolist-1936 50'
+          -
+            - 'infolist-4682 50'
+            - 'gridstatistic-9386 50'
+          -
+            - 'contentlist-8770 50'
+            - 'infolist-2743 50'
+          -
+            - 'infolist-7640 50'
+            - 'imagegrid-2471 50'
+          -
+            - 'infolist-9263 50'
+            - 'infolist-2114 50'
+          -
+            - 'infolist-7590 50'
+            - 'promoimage-2044 50'
+          -
+            - 'contact-2501 50'
+            - 'infolist-1755 50'
+          -
+            - system-content-5860
+      -
+        'aside 20':
+          -
+            - position-7776
+  /expanded/: {  }
+  /extension/: {  }
+  /bottom/: {  }
+  /footer/: {  }
+  /copyright/:
+    -
+      - 'branding-3645 33.3'
+      - 'copyright-8206 33.3'
+      - 'totop-7204 33.3'
+  /fixedside/:
+    -
+      - logo-9788
+    -
+      - social-6346
+  offcanvas:
+    -
+      - mobile-menu-9711
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box-darkgrey g-outer-box'
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-7450:
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'box4 g-outer-box'
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+      class: g-home
+  fixedside:
+    type: section
+    title: FixedSide
+    attributes:
+      boxed: ''
+content:
+  system-messages-1961:
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-4350:
+    title: 'MainNav Left'
+    attributes:
+      key: mainnav-left
+    block:
+      class: mainnav-left
+  menu-1533:
+    block:
+      class: mainnav-center
+  position-6155:
+    title: 'MainNav Right'
+    attributes:
+      key: mainnav-right
+    block:
+      class: mainnav-right
+  position-3745:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  infolist-4038:
+    title: 'Animated Block Info'
+    attributes:
+      class: 'spaced noborder'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>The Animated Block particle has been preset with a hover loading animation, to reveal more text. The particle supports a large header, tag, a short description and read more.</small></p>\n\n<small>The particle also features collection lists, with support for 1-5 columns. Each block has support for image, text and a link.</small>"
+          tag: Animated
+          subtag: Block
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  animatedblock-4125:
+    title: 'Animated Block'
+    attributes:
+      cols: g-1cols
+      blocks:
+        -
+          image: 'gantry-media://rocketlauncher/features/typography/img-02.jpg'
+          headline: 'Anim<br />ated'
+          tag: Tag
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+          readmore: 'Read More'
+          link: '#'
+          title: 'Item 1'
+  testimonial-3208:
+    attributes:
+      cols: g-1cols
+      testimonials:
+        -
+          style: g-testimonial-alt
+          img: 'gantry-media://rocketlauncher/home/feature/img-01.jpg'
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+          author: 'Author Name'
+          company: Company
+          companyurl: '#'
+          title: Testimonial
+  infolist-2423:
+    title: 'Testimonial Info'
+    attributes:
+      class: 'spaced noborder'
+      cols: g-1cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>Testimonials is a simple content particle designed for showing testimonials or quotes. It has two styles, with facilities for a quote/description and author image/name/company/link.</small></p>\n\n<small>The particle also features collection lists, with support for 1-5 columns. Each block has support for image, text and a link.</small>"
+          tag: Testimonial
+          subtag: ''
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  infolist-5985:
+    title: 'Grid Promo Gallery Info'
+    attributes:
+      class: 'spaced noborder'
+      cols: g-1cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>The Grid Promo Gallery particle is designed for displaying image grids, with text overlays, inclusive of tag, title and description.</small></p>\n\n<small>The particle also features collection lists, with support for 1-6 columns. Each block has support for image, text and a link.</small>"
+          tag: Grid
+          subtag: 'Promo Gallery'
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  gridpromogallery-3550:
+    title: 'Grid Promo Gallery'
+    attributes:
+      readmoreclass: button-3
+      cols: g-gridpromogallery-2cols
+      gridpromogalleryitems:
+        -
+          img: 'gantry-media://rocketlauncher/home/expanded/img-01.jpg'
+          tag: Tag
+          headtext: 'Title - Lorem ipsum dolor sit'
+          desc: Description
+          link: '#'
+          title: 'Item 1'
+        -
+          img: 'gantry-media://rocketlauncher/home/expanded/img-02.jpg'
+          tag: Tag
+          headtext: 'Title - Lorem ipsum dolor sit'
+          desc: Description
+          link: ''
+          title: 'Item 2'
+  gridcontent-1893:
+    title: 'Grid Content'
+    attributes:
+      class: center
+      title: Title
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      readmore: 'Read More'
+      readmorelink: '#'
+      readmoreclass: button-4
+      cols: g-gridcontent-2cols
+      gridcontentitems:
+        -
+          icon: 'fa fa-rocket fa-fw fa-3x'
+          textstyle: g-gridcontent-title-style-2
+          text1: 'Title 1'
+          text2: 'Title 2'
+          desc: ''
+          link: '#'
+          title: 'Blazingly Fast'
+        -
+          icon: 'fa fa-tablet fa-fw fa-3x'
+          textstyle: g-gridcontent-title-style-1
+          text1: 'Title 1'
+          text2: 'Title 2'
+          desc: ''
+          link: '#'
+          title: 'Fully Responsive'
+  infolist-1936:
+    title: 'Grid Content Info'
+    attributes:
+      class: 'spaced noborder'
+      cols: g-1cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>The Grid Content particle allows for the display of individual content blocks, with focus on an icon and complementary small text snippets. These are preceded by a general title, description and read more button area.</small></p>\n\n<small>The particle also features collection lists, with support for 1-6 columns. Each block has support for icon, text and a link.</small>"
+          tag: Grid
+          subtag: Content
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  infolist-4682:
+    title: 'Grid Statistics Info'
+    attributes:
+      class: 'noborder spaced'
+      cols: g-1cols
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: '<p><small>The Grid Statistics particle is powered by an odometer script to auto roll through the numbers. The particle supports 6 columns, and text for each number variable.</small></p>'
+          tag: Grid
+          subtag: Statistics
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  gridstatistic-9386:
+    title: 'Grid Statistic'
+    attributes:
+      cols: g-gridstatistic-2cols
+      gridstatisticitems:
+        -
+          text1: '9576'
+          text2: 'Miles travelled'
+          title: 'Item 1'
+        -
+          text1: '28967'
+          text2: 'Photos taken'
+          title: 'Item 2'
+  contentlist-8770:
+    title: 'Content List'
+    attributes:
+      class: noborder
+      image: 'gantry-media://rocketlauncher/features/typography/img-01.jpg'
+      imagetag: 'Image Tag'
+      headline: Headline
+      subtitle: Subtitle
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+      readmore: 'Read More'
+      link: '#'
+      cols: g-listgrid-2cols
+      listgriditems:
+        -
+          icon: 'fa fa-file-text-o fa-fw'
+          text: 'List item with individual icon controls'
+          link: ''
+          title: 'List item with individual controls'
+        -
+          icon: 'fa fa-bell fa-fw'
+          text: 'List item with individual icon controls'
+          link: ''
+          title: 'List item with individual controls'
+        -
+          icon: 'fa fa-cloud fa-fw'
+          text: 'List item with individual icon controls'
+          link: ''
+          title: 'List item with individual controls'
+        -
+          icon: 'fa fa-arrows fa-fw'
+          text: 'List item with individual icon controls'
+          link: ''
+          title: 'List item with individual controls'
+  infolist-2743:
+    title: 'Content List Info'
+    attributes:
+      class: 'noborder spaced'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>The Content List is a versatile content particle that has separate sections for its text and image content, as well as the lists. The particle requires an image, with options for a tag overlay, and various adjacent text/button options.</small></p>\n\n<small>The particle also features collection lists, with support for 1-5 columns. Each list item has its own unique icon, link and text settings.</small>"
+          tag: Content
+          subtag: List
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  infolist-7640:
+    title: 'Image Grid Info'
+    attributes:
+      class: 'noborder spaced'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: "<p><small>The Image Grid particle is a simple solution for displaying a small grid of images. Choose up to 5 columns, and an unlimited amount of rows. All images are clickable and a RokBox modal will show the full sized image.</small></p>\n\n<small>The particle also supports collection lists for creating new image entries. Each image has settings for caption that appear in the RokBox modal and the path of the file.</small>"
+          tag: Image
+          subtag: Grid
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  imagegrid-2471:
+    title: 'Image Grid'
+    attributes:
+      class: noborder
+      title: Title
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+      cols: g-imagegrid-2cols
+      album: album
+      imagegriditems:
+        -
+          image: 'gantry-media://rocketlauncher/features/overview/img-04.jpg'
+          caption: Caption
+          title: 'Item 1'
+        -
+          image: 'gantry-media://rocketlauncher/features/overview/img-05.jpg'
+          caption: Caption
+          title: 'Item 2'
+        -
+          image: 'gantry-media://rocketlauncher/features/overview/img-06.jpg'
+          caption: Caption
+          title: 'Item 3'
+        -
+          image: 'gantry-media://rocketlauncher/features/overview/img-07.jpg'
+          caption: Caption
+          title: 'Item 4'
+  infolist-9263:
+    title: 'Info List'
+    attributes:
+      title: Title
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'List Item 1'
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+          tag: ''
+          subtag: ''
+          label: ''
+          link: '#'
+          icon: ''
+          readmoreclass: ''
+          title: 'List Item 2'
+  infolist-2114:
+    title: 'Info List Info'
+    attributes:
+      class: 'noborder spaced'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: '<p><small>Info List is a simple particle for creating stacked list items with linkable titles and descriptions underneath. All items are separated by a border, and can be created via the collection list interface for quick and easy setup.</small></p>'
+          tag: Info
+          subtag: List
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  infolist-7590:
+    title: 'Promo Image Info'
+    attributes:
+      class: 'noborder spaced'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: '<p><small>The Promo Image particle offers a simple interface for adding a featured image, with overlay support for a title, a description and icons. Icons can be added via the collection list interface for quick and easy setup, each with individual link settings.</small></p>'
+          tag: Promo
+          subtag: Image
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  promoimage-2044:
+    title: 'Promo Image'
+    attributes:
+      class: noborder
+      title: Title
+      image: 'gantry-media://rocketlauncher/features/overview/img-03.jpg'
+      promoimagetitle: 'Promo Image Title'
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet nibh. Vivamus non arcu.'
+      iconbutton: 'fa fa-fw fa-file-o'
+  contact-2501:
+    attributes:
+      class: noborder
+      title: Title
+      contactitems:
+        -
+          icon: 'fa fa-phone fa-fw'
+          text: +1(555)-555-555
+          label: 'Contact Item 1'
+        -
+          icon: 'fa fa-map-marker fa-fw'
+          text: '555 RocketTheme Blvd, CO'
+          label: 'Contact Item 2'
+        -
+          icon: 'fa fa-envelope fa-fw'
+          text: hello@no-reply.com
+          label: 'Contact Item 3'
+        -
+          icon: 'fa fa-comment fa-fw'
+          text: 'Live Chat with Us'
+          label: 'Contact Item 4'
+  infolist-1755:
+    title: 'Contact Info'
+    attributes:
+      class: 'noborder spaced'
+      infolists:
+        -
+          image: ''
+          imageloc: left
+          textstyle: large
+          imagestyle: compact
+          desc: '<p><small>The Contact particle provides an efficient mechanism of providing a contact list. Items are created via the collection list interface allowing you to configure each entry with individual icons and values.</small></p>'
+          tag: Contact
+          subtag: Details
+          label: 'Learn More'
+          link: '#'
+          icon: ''
+          readmoreclass: button-4
+          title: Particle
+  position-7776:
+    title: Aside
+    attributes:
+      key: aside
+  branding-3645:
+    attributes:
+      content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>'
+  totop-7204:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-arrow-circle-o-up fa-2x'
+      content: ''
+  logo-9788:
+    attributes:
+      image: ''
+      text: R
+      class: g-fixedside-logo
+  social-6346:
+    attributes:
+      css:
+        class: social
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: '#'
+          name: 'Google +'
+        -
+          icon: 'fa fa-pinterest-p fa-fw'
+          text: ''
+          link: '#'
+          name: Pinterest
+        -
+          icon: 'fa fa-youtube-play fa-fw'
+          text: ''
+          link: '#'
+          name: YouTube
+        -
+          icon: 'fa fa-instagram fa-fw'
+          text: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-flickr fa-fw'
+          text: ''
+          link: '#'
+          name: Flickr
+        -
+          icon: 'fa fa-vimeo fa-fw'
+          text: ''
+          link: '#'
+          name: Vimeo
+  mobile-menu-9711:
+    title: 'Mobile Menu'

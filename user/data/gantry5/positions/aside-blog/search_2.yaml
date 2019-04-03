@@ -1,0 +1,10 @@
+type: particle
+title: 'Search Our Site'
+chrome:
+  display_title: '1'
+  class: ''
+options:
+  type: search
+  attributes:
+    enabled: '1'
+assignments: all

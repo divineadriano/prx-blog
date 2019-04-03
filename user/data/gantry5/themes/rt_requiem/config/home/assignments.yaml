@@ -1,0 +1,25 @@
+page:
+  -
+    home: true
+    tech-talks: true
+    announcements: true
+    highlights: true
+language:
+  -
+    en: true
+    zh: true
+    ja: true
+    ko: true
+    es: true
+type:
+  -
+    blog_item: true
+    blog_list: true
+    default: true
+    error: true
+    external: true
+    form: true
+    formdata: true
+    modular: true
+    offline: true
+    page: true

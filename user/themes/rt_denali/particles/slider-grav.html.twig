@@ -1,0 +1,85 @@
+{# Load Content From Grav #}
+{% set attr_extra = particle.extra|attribute_array %}
+{% set article_settings = particle.article %}
+{% set filter = article_settings.filter %}
+{% set sort = article_settings.sort %}
+{% set limit = article_settings.limit %}
+{% set start = limit.start %}
+{% set display = article_settings.display %}
+{% set categories = filter.categories|split(' ') %}
+{% set collection = grav.page.collection(
+    {
+    items: {'@taxonomy.category': categories},
+    order: {by: sort.orderby, dir: sort.ordering},
+    url_taxonomy_filters: false
+    },
+false) %}
+{% set total = collection.count() %}
+{% set pages = collection.slice(start, limit.total) %}
+
+{# Content #}
+<div class="g-slider-slides g-owlcarousel owl-carousel" data-slider-slides-id="{{ id }}">
+{% for page in pages %}
+    {% if display.image.enabled %}
+        {% if display.image.enabled == 'intro' %}
+            {% set file = page.header.image.summary.enabled|defined(false) ? (page.header.image.summary.file ?: true) %}
+        {% elseif display.image.enabled == 'full' %}
+            {% set file = page.header.image.text.enabled|defined(false) ? (page.header.image.text.file ?: true) %}
+        {% endif %}
+
+        {% set image = file is same as(true) ? page.media.images|first : (file ? page.media.images[file]) %}
+    {% endif %}
+
+    <div class="g-slider-slides-slide">
+        <div class="g-slider-slides-content">
+            {% if display.title.enabled and page.title %}
+                <h1>{{ (display.title.limit ? page.title|e|truncate_text(display.title.limit) : page.title|e)|raw }}</h1>
+            {% endif %}
+
+            {% if display.text.type %}
+                {% set page_text = display.text.type == 'intro' ? page.summary : page.content %}
+                <p>
+                    {% if display.text.formatting == 'text' %}
+                        {{ page_text|truncate_text(display.text.limit)|raw }}
+                    {% else %}
+                        {{ page_text|truncate_html(display.text.limit)|raw }}
+                    {% endif %}
+                </p>
+            {% endif %}
+
+            {% if display.read_more.enabled %}
+                <a href="{{ page.url|e }}" target="{{ display.read_more.target|default('_self')|e }}" title="{{ page.title|e }}" class="button {{ display.read_more.css }}">{{ display.read_more.label|default('Read More...') }}</a>
+            {% endif %}
+
+        </div>
+        <div class="g-slider-slides-image" style="background-image: url({{ image.url }});"></div>
+    </div>
+{% endfor %}
+</div>
+
+
+{# Thumbs #}
+{% if particle.thumbs == "enabled" %}
+    <div class="g-slider-carousel g-owlcarousel owl-carousel" data-slider-carousel-id="{{ id }}" data-slider-carousel-nav="{{ particle.nav == 'enabled' ? 'true' : 'false' }}">
+        {% for page in pages %}
+            {% if display.image.enabled %}
+                {% if display.image.enabled == 'intro' %}
+                    {% set file = page.header.image.summary.enabled|defined(false) ? (page.header.image.summary.file ?: true) %}
+                {% elseif display.image.enabled == 'full' %}
+                    {% set file = page.header.image.text.enabled|defined(false) ? (page.header.image.text.file ?: true) %}
+                {% endif %}
+
+                {% set image = file is same as(true) ? page.media.images|first : (file ? page.media.images[file]) %}
+            {% endif %}
+
+            <div>
+                <div class="g-slider-carousel-image-container" style="background-image: url({{ image.url }};"></div>
+                {% if display.title.enabled and page.title %}
+                    <div class="g-slider-carousel-title">
+                        {{ (display.title.limit ? page.title|e|truncate_text(display.title.limit) : page.title|e)|raw }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

@@ -1,0 +1,13 @@
+atoms:
+  -
+    title: Prettify
+    type: assets
+    attributes:
+      enabled: 1
+      javascript:
+        -
+          location: 'gantry-theme://external/prettify/run_prettify.js'
+          inline: ''
+          in_footer: '0'
+          name: Prettify
+    id: assets-4106

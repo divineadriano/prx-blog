@@ -1,0 +1,49 @@
+1554885801
+a:2:{s:7:"content";s:4876:"<h2>Blockchain Test Network</h2>
+<p>We are delighted to announce today that we have deployed 5 nodes for our blockchain testnet. This testnet is based on the NEM Catapult private chain which has been augmented and amended to suit the requirements of the Proximax Sirius platform. We have included in this testnet a Proof of Stake - PoS, which we adapted from the NXT project. We have decided to use PoS instead of Proof of Importance - PoI, because we believe that the PoS will work just as well. Further, PoI has shown to have little impact on the overall score and is closely related to PoS. Eventually the PoS will only be one part of the equation that forms the Proof of Conflation Aggregate - PoCa.</p>
+<p><img alt="" src="/user/pages/ProximaX Sirius Launches Blockchain Test Network/index.png" /></p>
+<p align="center">5 Nodes (2 API/3 Peer)</p>
+<p>Leading to our main network launch, the testnet shall be used as a staging environment so that all changes and amendments can be tested by everyone in the community thoroughly. In carrying out this testing, we hope that we can highlight and address all security issues before moving to the main network. </p>
+<p>At the same time, we believe that this will be monitored closely by the NEM core development team. In so doing, we hope that they will learn from our experience, thereby making the NEM mainnet a better solution.</p>
+<h3>Staging/Preparing Testnet for Mainnet</h3>
+<p>Our testnet rollouts will be used as a staging platform before we launch the mainnet. We believe that in decentralized technology, it is important that we involve everyone in community in order for us to find issues and bugs before we release the mainnet. By engaging the community in this manner, we are maximizing the chances of a successful platform.</p>
+<p><img alt="" src="/user/pages/ProximaX Sirius Launches Blockchain Test Network/index1.png" /></p>
+<p align="center">Test Network to Stage/Prepare for Main Network</p>
+<p>For now, we are limiting the number of testnet nodes so that we can easily release changes if needed. Once we get to a point that we can engage the public, we will invite volunteers to participate.</p>
+<h3>Key Updates On The Blockchain</h3>
+<p>We have made the blockchain consistent with <a href="https://nxtwiki.org/wiki/Whitepaper:Nxt">NXT</a> and further optimized it by changing a few object (list to deque) usage as follows:</p>
+<ul>
+<li>New PoS Implementation based on NXT.</li>
+<li>Updated the AccountBalance and AccountState.</li>
+<li>Calculation of the Effective Balance by using the ImportanceView.
+<ul>
+<li>EffectiveBalance calculation was changed based on NXT to return the effective balance for <code>1440</code> blocks instead of <code>1440</code> + <code>720</code> blocks.</li>
+</ul></li>
+<li>Base targets stored as difficulties in BlockDifficultyCache.</li>
+<li>Modified the calculation of base targets as per <a href="https://nxtwiki.org/wiki/Whitepaper:Nxt#Base_Target_Value">NXT</a></li>
+</ul>
+<h3>Future Updates</h3>
+<p>In addition to this staging platform, we have planned a few more major releases in the coming months. This includes the integration of the reputation system, new transaction types (such as super contract/smart contract extensions) and of course, an upstream upgrade from NEM Technology.</p>
+<p>Upcoming updates to our testnet are:</p>
+<ul>
+<li>Merge new changes from NEM (<code>Bison</code>)</li>
+<li>New Multisignature Transaction Type for ProximaX Reputation System</li>
+<li>Storage Specific Transaction Types</li>
+<li>Streaming Specific Transaction Types</li>
+<li>Super Contract Transaction Types</li>
+</ul>
+<h3>To access our Testnet Nodes</h3>
+<p>The following is our topology diagram for testnet. We currently have 5 nodes, 2 APIs and 3 peer nodes. We will continue to increase these nodes in the near future and engage community volunteers to participate. </p>
+<h4>Here are the chain heights for each testnet nodes.</h4>
+<p><strong>bctestnet1</strong>
+<code>curl http://bctestnet1.xpxsirius.io:3000/chain/height</code></p>
+<p><strong>bctestnet2</strong>
+<code>curl http://bctestnet2.xpxsirius.io:3000/chain/height</code></p>
+<h3>Websocket Ports</h3>
+<p><code>ws://bctestnet1.xpxsirius.io:3000</code>
+<code>ws://bctestnet2.xpxsirius.io:3000</code></p>
+<p>PostMan JSON File <a href="https://ipfs.io/ipfs/QmSQB4xoNeADs3kziQoVfheprQZpLJuxcW3hiPhyD82VyG">Here</a></p>
+<h2>Software Development Kits</h2>
+<p>We have forked the NEM SDKs and modified it to suit the purpose of ProximaX. For now, we won't be opening the source since we will still need to modify them for new transaction types that we will introduce. However, we will be inviting a few developers to test out the new SDKs. <strong>More details to follow.</strong></p>
+<h2>Tools</h2>
+<p>We will also be launching tools such as <strong>Blockchain Explorer</strong> and a <strong>Simple Wallet</strong> soon.</p>";s:12:"content_meta";N;}

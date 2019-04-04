@@ -1,5 +1,5 @@
 name: home
-timestamp: 1554276743
+timestamp: 1554346718
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -33,6 +33,8 @@ particles:
     logo-1431: Logo
   menu:
     menu-5335: Menu
+  language-selector:
+    language-selector-7214: 'Language Selector'
   promocontent:
     promocontent-2358: 'Promo Content'
   content:
@@ -40,7 +42,7 @@ particles:
   custom:
     custom-7212: About
   infolist:
-    infolist-2867: Elsewhere
+    infolist-2867: 'Connect With Us'
     infolist-3953: 'Useful Links'
   copyright:
     copyright-1260: Copyright

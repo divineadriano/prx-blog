@@ -1,17 +1,25 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1554280336,
-    'checksum' => '1cd1c73f3c726b3157f7c379ada97185',
+    'timestamp' => 1554345614,
+    'checksum' => '7fa30cae21a15599ce490907c0440fac',
     'files' => [
         'user/themes/rt_requiem/custom/particles' => [
             'particles/blueprints' => [
                 'file' => 'user/themes/rt_requiem/custom/particles/blueprints.yaml',
-                'modified' => 1554267258
+                'modified' => 1553837786
             ],
             'particles/disqus_comments' => [
                 'file' => 'user/themes/rt_requiem/custom/particles/disqus_comments.yaml',
                 'modified' => 1554267225
+            ],
+            'particles/language-selector' => [
+                'file' => 'user/themes/rt_requiem/custom/particles/language-selector.yaml',
+                'modified' => 1554345514
+            ],
+            'particles/languages' => [
+                'file' => 'user/themes/rt_requiem/custom/particles/languages.yaml',
+                'modified' => 1553837786
             ],
             'particles/readingtime' => [
                 'file' => 'user/themes/rt_requiem/custom/particles/readingtime.yaml',
@@ -347,7 +355,7 @@ return [
                 'type' => '_root',
                 'form_field' => false,
                 'form' => [
-                    
+                    'validation' => 'strict'
                 ]
             ],
             'particles' => [
@@ -357,33 +365,85 @@ return [
             ],
             'particles.blueprints.enabled' => [
                 'type' => 'toggle',
-                'label' => 'Plugin status',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.PLUGIN_STATUS',
                 'highlight' => 1,
-                'default' => 0,
+                'default' => 1,
                 'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
                 ],
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'particles.blueprints.enabled'
+                'name' => 'particles.blueprints.enabled',
+                'validation' => 'strict'
             ],
-            'particles.blueprints.counter' => [
+            'particles.blueprints.built_in_css' => [
                 'type' => 'toggle',
-                'label' => 'Counter comments',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUILT_IN_CSS',
                 'highlight' => 1,
-                'default' => 0,
+                'default' => 1,
                 'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
                 ],
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'particles.blueprints.counter'
+                'name' => 'particles.blueprints.built_in_css',
+                'validation' => 'strict'
+            ],
+            'particles.blueprints.untranslated_pages_behavior' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.LABEL',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_NONE',
+                    'redirect' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_REDIR',
+                    'hide' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_HIDE'
+                ],
+                'name' => 'particles.blueprints.untranslated_pages_behavior',
+                'validation' => 'strict'
+            ],
+            'particles.blueprints.button_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUTTON_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'particles.blueprints.button_display',
+                'validation' => 'strict'
+            ],
+            'particles.blueprints.select_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'particles.blueprints.select_display',
+                'validation' => 'strict'
             ],
             'particles.disqus_comments' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.language-selector' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    
+                ]
+            ],
+            'particles.languages' => [
                 'type' => '_root',
                 'form_field' => false,
                 'form' => [
@@ -5970,9 +6030,14 @@ return [
             'particles' => [
                 'blueprints' => [
                     'enabled' => 'particles.blueprints.enabled',
-                    'counter' => 'particles.blueprints.counter'
+                    'built_in_css' => 'particles.blueprints.built_in_css',
+                    'untranslated_pages_behavior' => 'particles.blueprints.untranslated_pages_behavior',
+                    'button_display' => 'particles.blueprints.button_display',
+                    'select_display' => 'particles.blueprints.select_display'
                 ],
                 'disqus_comments' => 'particles.disqus_comments',
+                'language-selector' => 'particles.language-selector',
+                'languages' => 'particles.languages',
                 'readingtime' => 'particles.readingtime',
                 'animatedblock' => [
                     'enabled' => 'particles.animatedblock.enabled',

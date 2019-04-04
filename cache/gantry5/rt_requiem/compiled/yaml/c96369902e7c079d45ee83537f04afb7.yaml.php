@@ -1,0 +1,84 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:/grav/grav-admin/user/data/gantry5/themes/rt_requiem/config/overview/index.yaml',
+    'modified' => 1553751274,
+    'data' => [
+        'name' => 'overview',
+        'timestamp' => 1553748709,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'default',
+            'timestamp' => 1446545546
+        ],
+        'positions' => [
+            'mainnav-left' => 'MainNav Left',
+            'mainnav-right' => 'MainNav Right',
+            'sidebar' => 'Sidebar',
+            'aside' => 'Aside'
+        ],
+        'sections' => [
+            'top' => 'Top',
+            'navigation' => 'Navigation',
+            'showcase' => 'Showcase',
+            'above' => 'Above',
+            'utility' => 'Utility',
+            'feature' => 'Feature',
+            'sidebar' => 'Sidebar',
+            'mainbar' => 'Mainbar',
+            'expanded' => 'Expanded',
+            'extension' => 'Extension',
+            'bottom' => 'Bottom',
+            'copyright' => 'Copyright',
+            'fixedside' => 'FixedSide',
+            'header' => 'Header',
+            'aside' => 'Aside',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'messages' => [
+                'system-messages-2777' => 'System Messages'
+            ],
+            'position' => [
+                'position-position-9886' => 'MainNav Left',
+                'position-position-6679' => 'MainNav Right',
+                'position-position-1082' => 'Sidebar',
+                'position-position-9839' => 'Aside'
+            ],
+            'menu' => [
+                'menu-6934' => 'Menu'
+            ],
+            'infolist' => [
+                'infolist-9833' => 'Gantry 5 - Next Generation Theme Framework',
+                'infolist-2499' => 'Features Overview - Theme Features Grid',
+                'infolist-2640' => 'Features Overview Gantry 5',
+                'infolist-7142' => 'Theme Features',
+                'infolist-6979' => 'System Requirements',
+                'infolist-9579' => 'Gantry 5 Core Features'
+            ],
+            'branding' => [
+                'branding-3234' => 'Branding'
+            ],
+            'copyright' => [
+                'copyright-7141' => 'Copyright'
+            ],
+            'totop' => [
+                'totop-7016' => 'To Top'
+            ],
+            'logo' => [
+                'logo-7684' => 'Logo'
+            ],
+            'social' => [
+                'social-9373' => 'Social'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-2145' => 'Mobile Menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

@@ -1,0 +1,49 @@
+1554950454
+a:2:{s:7:"content";s:4018:"<h2>Blockchain, almacenamiento y redes de prueba en difusión</h2>
+<p>Recientemente, anunciamos el lanzamiento de nuestras redes de prueba de almacenamiento y streaming públicas, para el momento que fue escrito este blog, algunas de nuestras aplicaciones se encuentraban en proceso de ser migradas e integradas con dichas redes.</p>
+<p>Para obtener más información sobre el almacenamiento público y las redes de prueba de streaming, visite las publicaciones más recientes de nuestro blog.</p>
+<p>https://blog.proximax.io/storage-streaming-testnet-launch/
+https://blog.proximax.io/proximax-sirius-blockchain-test-network/</p>
+<p>Continuaremos usando estos entornos para organizar nuestros cambios. Al igual que la red de prueba pública de blockchain, agregaremos nuestros cambios semanalmente (preferiblemente todos los viernes). Una vez finalizados, animaremos a la comunidad a involucrarse aún más, invitando a los desarrolladores a crear aplicaciones sobre la plataforma.</p>
+<h2>Documentos técnicos de alto nivel</h2>
+<p>Ahora también hemos publicado la primera versión de nuestro documento técnico, junto con documentos de investigación específicos de almacenamiento.</p>
+<p>El informe técnico de alto nivel es una vista panorámica de todos los componentes de la plataforma. En esta primera versión, hemos explicado el diseño general de la plataforma y el funcionamiento de sus procesos internos.</p>
+<p>Tenemos dos tipos de plataformas, privadas/autorizadas y públicas. La plataforma pública incluirá almacenamiento, streaming y super contracts. El privado/autorizado tiene un conjunto de funciones más controlado que incluye almacenamiento, streaming, base de datos y super contracts. Cada detalles se encuentra en el Whitepaper.</p>
+<p>Además de la información sobre el diseño técnico de alto nivel, también hemos publicado los informes de referencia y de rastreabilidad de modelos para la capa de almacenamiento. Para más información, puede leer la publicación de nuestro blog.</p>
+<p>https://blog.proximax.io/tech-papers/</p>
+<p>Nuestro equipo continuará publicando más documentación a medida que avancemos con el desarrollo de la plataforma.</p>
+<h2>Actualización de ProximaX Web Wallet</h2>
+<p>Desde el lanzamiento hace unos meses, hemos realizado mejoras importantes en la web wallet y hemos solucionado los problemas que han sido informados en: (https://trello.com/b/nVu5ZxqN/proximaxtestnetapps).</p>
+<h3>Tablero de transacciones</h3>
+<ul>
+<li>Se corrigió la duplicación de transacciones confirmadas y no confirmadas.</li>
+<li>Se añadió divisibilidad de mosaico a las cantidades.</li>
+<li>Se mejoró el rendimiento.</li>
+<li>La carga inicial es cuando el usuario inicia sesión.</li>
+<li>Una vez registradas, las transacciones y la información del mosaico se almacenan en caché.</li>
+<li>Una vez que se confirma una nueva transacción, se agrega y se guarda en el caché.</li>
+<li>Cuando el usuario se desconecta de la cartera, toda la información almacenada en el caché se destruye.</li>
+</ul>
+<h3>Selección de nodos</h3>
+<ul>
+<li>Hay un nodo predeterminado en un archivo json.</li>
+<li>El usuario puede agregar y seleccionar nuevos nodos.</li>
+</ul>
+<h3>Directorio</h3>
+<ul>
+<li>Se agregó el botón de cerrar en el modal.</li>
+<li>El mínimo de 6 caracteres a 2 caracteres se modificó en el campo de usuario.</li>
+</ul>
+<h3>Cuenta</h3>
+<ul>
+<li>Se validó que el campo de contraseña no esté vacío.</li>
+<li>El campo de contraseña se oculta cuando se muestra la clave privada; cuando se cierra la clave privada, se muestra nuevamente el campo de contraseña.</li>
+</ul>
+<h2>Resumen</h2>
+<p>A continuación se muestra un resumen de lo que hemos completado en enero:</p>
+<ul>
+<li>Se lanzaron las redes públicas de prueba para almacenamiento y streaming.</li>
+<li>Se finalizó y publicó el documento técnico de alto nivel y la documentación de I + D.</li>
+<li>Se lanzó la aplicación ProximaX Suite.</li>
+<li>Arreglos de ProximaX Web wallet.</li>
+</ul>";s:12:"content_meta";N;}

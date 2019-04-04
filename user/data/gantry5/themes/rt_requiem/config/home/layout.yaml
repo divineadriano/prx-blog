@@ -9,8 +9,9 @@ layout:
       - system-messages-6610
   /navigation/:
     -
-      - 'logo-4141 14'
-      - 'menu-5335 86'
+      - 'logo-4141 15'
+      - 'menu-5335 80'
+      - 'language-selector-7214 5'
   /header/:
     -
       - promocontent-2358
@@ -33,9 +34,9 @@ layout:
       - system-content-1308
   /footer/:
     -
-      - 'custom-7212 44'
-      - 'infolist-2867 35'
-      - 'infolist-3953 21'
+      - 'custom-7212 50'
+      - 'infolist-2867 30'
+      - 'infolist-3953 20'
   /copyright/:
     -
       - 'copyright-1260 95'
@@ -121,6 +122,8 @@ content:
   menu-5335:
     block:
       class: mainnav-left
+  language-selector-7214:
+    title: 'Language Selector'
   promocontent-2358:
     title: 'Promo Content'
     attributes:
@@ -138,14 +141,14 @@ content:
   custom-7212:
     title: About
     attributes:
-      html: "<h2 class=\"g-title\">About ProximaX</h2>\n<p>ProximaX is a next generation blockchain platform solution with an Integrated and Distributed Ledger Technology (IaDLT). This assembly of proven technologies provides a holistic enterprise-grade technology platform for the development of highly-secure and cost-effective applications and solutions</p>"
+      html: "<h2 class=\"g-title\">About ProximaX</h2>\n<p>ProximaX is a next generation blockchain platform solution with an Integrated and Distributed Ledger Technology (IaDLT). This assembly of proven technologies provides a holistic enterprise-grade technology platform for the development of highly-secure and cost-effective applications and solutions\n</p>\n<a href=\"https://proximax.io\">\nwww.proximax.io</a>"
     block:
       class: 'g-about g-title-bordered'
   infolist-2867:
-    title: Elsewhere
+    title: 'Connect With Us'
     attributes:
       class: g-gridmenu
-      title: Elsewhere
+      title: 'Connect With Us'
       cols: g-2cols
       infolists:
         -
@@ -157,8 +160,34 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: '#'
-          icon: ''
+          link: 'http://t.me/ProximaXio'
+          icon: 'fa fa-telegram'
+          readmoreclass: ''
+          title: Telegram
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: ''
+          tag: ''
+          subtag: ''
+          label: ''
+          link: 'https://github.com/proximax-storage'
+          icon: 'fa fa-github-square'
+          readmoreclass: ''
+          title: Github
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: ''
+          tag: ''
+          subtag: ''
+          label: ''
+          link: 'https://www.facebook.com/ProximaXio/'
+          icon: 'fa fa-facebook'
           readmoreclass: ''
           title: Facebook
         -
@@ -170,8 +199,8 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: '#'
-          icon: ''
+          link: 'https://twitter.com/ProximaXio'
+          icon: 'fa fa-twitter'
           readmoreclass: ''
           title: Twitter
         -
@@ -183,21 +212,8 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: '#'
-          icon: ''
-          readmoreclass: ''
-          title: YouTube
-        -
-          image: ''
-          imageloc: left
-          textstyle: compact
-          imagestyle: compact
-          desc: ''
-          tag: ''
-          subtag: ''
-          label: ''
-          link: '#'
-          icon: ''
+          link: 'https://www.instagram.com/proximaxio/'
+          icon: 'fa fa-instagram'
           readmoreclass: ''
           title: Instagram
         -
@@ -209,12 +225,23 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: '#'
-          icon: ''
+          link: 'https://www.reddit.com/user/ProximaXio/'
+          icon: 'fa fa-reddit'
           readmoreclass: ''
-          title: Github
+          title: Reddit
         -
-          title: Telegram
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: ''
+          tag: ''
+          subtag: ''
+          label: ''
+          link: 'https://www.youtube.com/channel/UCky9HP0VlqsnGQWrbMPFVnw'
+          icon: 'fa fa-youtube'
+          readmoreclass: ''
+          title: YouTube
     block:
       class: g-title-bordered
   infolist-3953:
@@ -232,7 +259,20 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: 'http://docs.gantry.org/'
+          link: 'https://proximax.io/#contact'
+          icon: ''
+          readmoreclass: ''
+          title: Contact
+        -
+          image: ''
+          imageloc: left
+          textstyle: compact
+          imagestyle: compact
+          desc: ''
+          tag: ''
+          subtag: ''
+          label: ''
+          link: 'https://proximax.io/tou'
           icon: ''
           readmoreclass: ''
           title: 'Terms of Use'
@@ -245,7 +285,7 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: 'http://www.rockettheme.com/contact-us'
+          link: 'https://proximax.io/privacy'
           icon: ''
           readmoreclass: ''
           title: 'Privacy Policy'
@@ -258,7 +298,7 @@ content:
           tag: ''
           subtag: ''
           label: ''
-          link: 'http://www.rockettheme.com/forum/grav-theme-requiem'
+          link: 'https://proximax.io/cookiepolicy'
           icon: ''
           readmoreclass: ''
           title: 'Cookie Policy'

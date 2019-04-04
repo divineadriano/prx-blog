@@ -1,0 +1,49 @@
+1554950414
+a:2:{s:7:"content";s:3562:"<h2>Blockchain, Storage and Streaming Test Networks</h2>
+<p>We recently announced the launch of our public storage and streaming test networks, and at the time of writing this blog, some of our applications are in the process of being migrated over and integrated with the public networks.</p>
+<p>For more information on the public storage and streaming test networks, visit our recent blog posts below.</p>
+<p>https://blog.proximax.io/storage-streaming-testnet-launch/
+https://blog.proximax.io/proximax-sirius-blockchain-test-network/</p>
+<p>We will continue to use these environments to stage our changes. Like the public blockchain test network, we will add our changes on a weekly basis (every Friday preferably). Once all is set, we will then encourage the community to get further involved by inviting developers to build applications on top of the platform.</p>
+<h2>High-level Technical Papers</h2>
+<p>We have now also published the first version of our technical whitepaper along with storage specific research papers.</p>
+<p>The High-Level Technical Whitepaper is a bird’s-eye view of all the platform’s components. In this first version of the paper, we have explained the platform’s overall design and the workings of its internal processes.</p>
+<p>We have two types of platforms, private/permissioned and public. The public platform will include storage, streaming, and super contracts. The private/permissioned has a more controlled set of features which include storage, streaming, database, and super contracts. The details of these are all written in the whitepaper.</p>
+<p>Aside from information on the high-level technical design, we have also published the supporting reference and modelling traceability reports for the storage layer. For more information, you can read our blog post below.</p>
+<p>https://blog.proximax.io/tech-papers/</p>
+<p>Our team will continue to publish more documentation as we progress with the platform’s development. </p>
+<h2>ProximaX Web Wallet Update</h2>
+<p>Since launching a few months ago, we have made major enhancements to the web wallet and fixed reported issues (https://trello.com/b/nVu5ZxqN/proximaxtestnetapps).</p>
+<h3>Transaction Dashboard</h3>
+<ul>
+<li>Duplication of confirmed and unconfirmed transactions was corrected.</li>
+<li>Mosaic divisibility was added to the amounts.</li>
+<li>Performance was improved.</li>
+<li>The initial load is when the user logs.</li>
+<li>Once logged, the transactions and mosaic information are cached.</li>
+<li>Once a new transaction is confirmed, it is added and saved in the cache.</li>
+<li>When the user logs out of the wallet, all the information stored in cache is destroyed.</li>
+</ul>
+<h3>Node Selection</h3>
+<ul>
+<li>There is a default node in a json file.</li>
+<li>The user can add and select new nodes.</li>
+</ul>
+<h3>Address Book</h3>
+<ul>
+<li>The close button in the modal was added.</li>
+<li>The minimum of 6 characters to 2 characters was modified in the user field.</li>
+</ul>
+<h3>Account</h3>
+<ul>
+<li>It was validated that the password field is not empty.</li>
+<li>The password field is hidden when the private key is displayed, when the private key is closed, the password field is again displayed.</li>
+</ul>
+<h2>Summary</h2>
+<p>Below is a summary of what we have completed in January:</p>
+<ul>
+<li>Launched the public test networks for storage and streaming.</li>
+<li>Finalised and published the High-Level Technical Whitepaper and R&amp;D documentation.</li>
+<li>Launched ProximaX Suite app.</li>
+<li>ProximaX web wallet fixes.</li>
+</ul>";s:12:"content_meta";N;}

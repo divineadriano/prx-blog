@@ -332,6 +332,7 @@
   -ms-flex: 0 5%;
   flex: 0 5%;
   width: 5%;
+  margin-top: 20px;
 }
 #g5-container .size-6 {
   -webkit-box-flex: 0;

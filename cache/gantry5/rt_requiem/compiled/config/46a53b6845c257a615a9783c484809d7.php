@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1554280828,
-    'checksum' => 'bc5bcf81bf4cb6b927e1e83f322edc48',
+    'timestamp' => 1554346722,
+    'checksum' => '12f496bde00d606d5bd296c6be14d61a',
     'files' => [
         'user/data/gantry5/themes/rt_requiem/config/home' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/index.yaml',
-                'modified' => 1554276743
+                'modified' => 1554346718
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/layout.yaml',
-                'modified' => 1554276743
+                'modified' => 1554346718
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/page/body.yaml',
@@ -615,8 +615,11 @@ return [
                 'content' => ''
             ],
             'blueprints' => [
-                'enabled' => 0,
-                'counter' => 0
+                'enabled' => 1,
+                'built_in_css' => 1,
+                'untranslated_pages_behavior' => 'none',
+                'button_display' => 'default',
+                'select_display' => 'default'
             ],
             'video' => [
                 'enabled' => '1',
@@ -938,7 +941,7 @@ return [
         ],
         'index' => [
             'name' => 'home',
-            'timestamp' => 1554276743,
+            'timestamp' => 1554346718,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -979,6 +982,9 @@ return [
                 'menu' => [
                     'menu-5335' => 'Menu'
                 ],
+                'language-selector' => [
+                    'language-selector-7214' => 'Language Selector'
+                ],
                 'promocontent' => [
                     'promocontent-2358' => 'Promo Content'
                 ],
@@ -989,7 +995,7 @@ return [
                     'custom-7212' => 'About'
                 ],
                 'infolist' => [
-                    'infolist-2867' => 'Elsewhere',
+                    'infolist-2867' => 'Connect With Us',
                     'infolist-3953' => 'Useful Links'
                 ],
                 'copyright' => [
@@ -1024,8 +1030,9 @@ return [
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'logo-4141 14',
-                        1 => 'menu-5335 86'
+                        0 => 'logo-4141 15',
+                        1 => 'menu-5335 80',
+                        2 => 'language-selector-7214 5'
                     ]
                 ],
                 '/header/' => [
@@ -1077,9 +1084,9 @@ return [
                 ],
                 '/footer/' => [
                     0 => [
-                        0 => 'custom-7212 44',
-                        1 => 'infolist-2867 35',
-                        2 => 'infolist-3953 21'
+                        0 => 'custom-7212 50',
+                        1 => 'infolist-2867 30',
+                        2 => 'infolist-3953 20'
                     ]
                 ],
                 '/copyright/' => [
@@ -1214,6 +1221,9 @@ return [
                         'class' => 'mainnav-left'
                     ]
                 ],
+                'language-selector-7214' => [
+                    'title' => 'Language Selector'
+                ],
                 'promocontent-2358' => [
                     'title' => 'Promo Content',
                     'attributes' => [
@@ -1234,17 +1244,20 @@ return [
                     'title' => 'About',
                     'attributes' => [
                         'html' => '<h2 class="g-title">About ProximaX</h2>
-<p>ProximaX is a next generation blockchain platform solution with an Integrated and Distributed Ledger Technology (IaDLT). This assembly of proven technologies provides a holistic enterprise-grade technology platform for the development of highly-secure and cost-effective applications and solutions</p>'
+<p>ProximaX is a next generation blockchain platform solution with an Integrated and Distributed Ledger Technology (IaDLT). This assembly of proven technologies provides a holistic enterprise-grade technology platform for the development of highly-secure and cost-effective applications and solutions
+</p>
+<a href="https://proximax.io">
+www.proximax.io</a>'
                     ],
                     'block' => [
                         'class' => 'g-about g-title-bordered'
                     ]
                 ],
                 'infolist-2867' => [
-                    'title' => 'Elsewhere',
+                    'title' => 'Connect With Us',
                     'attributes' => [
                         'class' => 'g-gridmenu',
-                        'title' => 'Elsewhere',
+                        'title' => 'Connect With Us',
                         'cols' => 'g-2cols',
                         'infolists' => [
                             0 => [
@@ -1256,10 +1269,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => '#',
-                                'icon' => '',
+                                'link' => 'http://t.me/ProximaXio',
+                                'icon' => 'fa fa-telegram',
                                 'readmoreclass' => '',
-                                'title' => 'Facebook'
+                                'title' => 'Telegram'
                             ],
                             1 => [
                                 'image' => '',
@@ -1270,10 +1283,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => '#',
-                                'icon' => '',
+                                'link' => 'https://github.com/proximax-storage',
+                                'icon' => 'fa fa-github-square',
                                 'readmoreclass' => '',
-                                'title' => 'Twitter'
+                                'title' => 'Github'
                             ],
                             2 => [
                                 'image' => '',
@@ -1284,10 +1297,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => '#',
-                                'icon' => '',
+                                'link' => 'https://www.facebook.com/ProximaXio/',
+                                'icon' => 'fa fa-facebook',
                                 'readmoreclass' => '',
-                                'title' => 'YouTube'
+                                'title' => 'Facebook'
                             ],
                             3 => [
                                 'image' => '',
@@ -1298,10 +1311,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => '#',
-                                'icon' => '',
+                                'link' => 'https://twitter.com/ProximaXio',
+                                'icon' => 'fa fa-twitter',
                                 'readmoreclass' => '',
-                                'title' => 'Instagram'
+                                'title' => 'Twitter'
                             ],
                             4 => [
                                 'image' => '',
@@ -1312,13 +1325,38 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => '#',
-                                'icon' => '',
+                                'link' => 'https://www.instagram.com/proximaxio/',
+                                'icon' => 'fa fa-instagram',
                                 'readmoreclass' => '',
-                                'title' => 'Github'
+                                'title' => 'Instagram'
                             ],
                             5 => [
-                                'title' => 'Telegram'
+                                'image' => '',
+                                'imageloc' => 'left',
+                                'textstyle' => 'compact',
+                                'imagestyle' => 'compact',
+                                'desc' => '',
+                                'tag' => '',
+                                'subtag' => '',
+                                'label' => '',
+                                'link' => 'https://www.reddit.com/user/ProximaXio/',
+                                'icon' => 'fa fa-reddit',
+                                'readmoreclass' => '',
+                                'title' => 'Reddit'
+                            ],
+                            6 => [
+                                'image' => '',
+                                'imageloc' => 'left',
+                                'textstyle' => 'compact',
+                                'imagestyle' => 'compact',
+                                'desc' => '',
+                                'tag' => '',
+                                'subtag' => '',
+                                'label' => '',
+                                'link' => 'https://www.youtube.com/channel/UCky9HP0VlqsnGQWrbMPFVnw',
+                                'icon' => 'fa fa-youtube',
+                                'readmoreclass' => '',
+                                'title' => 'YouTube'
                             ]
                         ]
                     ],
@@ -1341,10 +1379,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => 'http://docs.gantry.org/',
+                                'link' => 'https://proximax.io/#contact',
                                 'icon' => '',
                                 'readmoreclass' => '',
-                                'title' => 'Terms of Use'
+                                'title' => 'Contact'
                             ],
                             1 => [
                                 'image' => '',
@@ -1355,10 +1393,10 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => 'http://www.rockettheme.com/contact-us',
+                                'link' => 'https://proximax.io/tou',
                                 'icon' => '',
                                 'readmoreclass' => '',
-                                'title' => 'Privacy Policy'
+                                'title' => 'Terms of Use'
                             ],
                             2 => [
                                 'image' => '',
@@ -1369,7 +1407,21 @@ return [
                                 'tag' => '',
                                 'subtag' => '',
                                 'label' => '',
-                                'link' => 'http://www.rockettheme.com/forum/grav-theme-requiem',
+                                'link' => 'https://proximax.io/privacy',
+                                'icon' => '',
+                                'readmoreclass' => '',
+                                'title' => 'Privacy Policy'
+                            ],
+                            3 => [
+                                'image' => '',
+                                'imageloc' => 'left',
+                                'textstyle' => 'compact',
+                                'imagestyle' => 'compact',
+                                'desc' => '',
+                                'tag' => '',
+                                'subtag' => '',
+                                'label' => '',
+                                'link' => 'https://proximax.io/cookiepolicy',
                                 'icon' => '',
                                 'readmoreclass' => '',
                                 'title' => 'Cookie Policy'

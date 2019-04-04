@@ -1,6 +1,7 @@
 ---
-title: 'Tech Talks'
-slug: tech-talks
+title: 'Tech Talk'
+menu: 'Tech Talk'
+slug: tech-talk
 routable: true
 content:
     items:

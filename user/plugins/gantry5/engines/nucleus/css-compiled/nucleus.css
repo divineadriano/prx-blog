@@ -18,6 +18,7 @@
   padding: 0;
   list-style: none;
   float: right;
+  margin-right: 20px;
 }
 
 #g-mobilemenu-container ul {
@@ -2147,6 +2148,31 @@ input[type="submit"] {
   right: inherit;
 }
 
-
+.language-selector .btn{
+  float: left;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  width: 50px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  /* border: 1px solid transparent; */
+  /* padding: 5px 10px; */
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #fff0;
+  border-color: #ccc;
+}
+.language-selector .btn img{
+  width:100px;
+}
 
 /*# sourceMappingURL=nucleus.css.map */

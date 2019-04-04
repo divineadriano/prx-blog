@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/grav/grav-admin/user/data/gantry5/themes/rt_requiem/config/home/index.yaml',
-    'modified' => 1554276743,
+    'modified' => 1554346718,
     'data' => [
         'name' => 'home',
-        'timestamp' => 1554276743,
+        'timestamp' => 1554346718,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -46,6 +46,9 @@ return [
             'menu' => [
                 'menu-5335' => 'Menu'
             ],
+            'language-selector' => [
+                'language-selector-7214' => 'Language Selector'
+            ],
             'promocontent' => [
                 'promocontent-2358' => 'Promo Content'
             ],
@@ -56,7 +59,7 @@ return [
                 'custom-7212' => 'About'
             ],
             'infolist' => [
-                'infolist-2867' => 'Elsewhere',
+                'infolist-2867' => 'Connect With Us',
                 'infolist-3953' => 'Useful Links'
             ],
             'copyright' => [

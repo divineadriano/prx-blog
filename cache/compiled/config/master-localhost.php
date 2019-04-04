@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1554280326,
-    'checksum' => 'b4b53d6b954d9d5f47d92d0c4bb25627',
+    'timestamp' => 1554345640,
+    'checksum' => 'c13f8f8d75d5db4e07a563ce226d62d2',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'plugins/language-selector' => [
                 'file' => 'user/config/plugins/language-selector.yaml',
-                'modified' => 1553837814
+                'modified' => 1554345640
             ],
             'plugins/readingtime' => [
                 'file' => 'user/config/plugins/readingtime.yaml',
@@ -340,8 +340,8 @@ return [
                 'enabled' => true,
                 'built_in_css' => true,
                 'untranslated_pages_behavior' => 'none',
-                'button_display' => 'default',
-                'select_display' => 'default'
+                'button_display' => 'flag',
+                'select_display' => 'flag'
             ],
             'login' => [
                 'enabled' => true,

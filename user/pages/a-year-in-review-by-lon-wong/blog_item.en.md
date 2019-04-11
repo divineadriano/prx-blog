@@ -1,6 +1,6 @@
 ---
 title: 'A Year In Review by Lon Wong'
-media_order: 'shutterstock_1307279443.jpg,Cross-Chain-Concepts.png'
+media_order: 'shutterstock_1307279443 (1).jpg'
 published: true
 date: '26-12-2018 05:46'
 publish_date: '26-12-2018 05:46'

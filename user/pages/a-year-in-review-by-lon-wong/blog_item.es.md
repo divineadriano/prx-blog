@@ -14,8 +14,8 @@ image:
     text:
         enabled: '1'
         file: shutterstock_1307279443.jpg
-    width: 900
-    height: 600
+    width: 1200
+    height: 800
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1554345075,
-    'checksum' => 'ac76fde5572124348f0fb1d7d12e6521',
+    'timestamp' => 1554942645,
+    'checksum' => '1d24ca63206c9f120dab0c610e8909a5',
     'files' => [
         'user/data/gantry5/themes/rt_requiem/config/home' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/index.yaml',
-                'modified' => 1554344840
+                'modified' => 1554942523
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/layout.yaml',
-                'modified' => 1554344840
+                'modified' => 1554942523
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/page/body.yaml',
@@ -59,7 +59,7 @@ return [
         ],
         'index' => [
             'name' => 'home',
-            'timestamp' => 1554344840,
+            'timestamp' => 1554942523,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -99,6 +99,9 @@ return [
                 ],
                 'menu' => [
                     'menu-5335' => 'Menu'
+                ],
+                'language-selector' => [
+                    'language-selector-7214' => 'Language Selector'
                 ],
                 'promocontent' => [
                     'promocontent-2358' => 'Promo Content'
@@ -145,8 +148,9 @@ return [
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'logo-4141 14',
-                        1 => 'menu-5335 86'
+                        0 => 'logo-4141 15',
+                        1 => 'menu-5335 80',
+                        2 => 'language-selector-7214 5'
                     ]
                 ],
                 '/header/' => [
@@ -335,12 +339,15 @@ return [
                         'class' => 'mainnav-left'
                     ]
                 ],
+                'language-selector-7214' => [
+                    'title' => 'Language Selector'
+                ],
                 'promocontent-2358' => [
                     'title' => 'Promo Content',
                     'attributes' => [
                         'class' => '',
                         'promostyle' => 'promo',
-                        'promo' => 'PROXIMAX',
+                        'promo' => '',
                         'desc' => 'Blockchain Reimagined and Evolved',
                         'desc2' => 'Blockchain Reimagined and Evolved',
                         'descanimation' => 'typewriter',

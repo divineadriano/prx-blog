@@ -1,0 +1,31 @@
+1555548278
+a:2:{s:7:"content";s:3152:"<h2>Blockchain Test Network Explorer</h2>
+<p>In addition to the endpoints, we have today deployed the blockchain explorer. The blockchain explorer is currently a simple version and we will continue to build and pad more features and functions to it.</p>
+<p><img alt="" src="/user/pages/Blockchain Test Network Explorer, Wallet and Faucet Launch/Screen-Shot-2018-11-21-at-11.43.57-PM.png" /></p>
+<p>http://bctestnetexplorer.xpxsirius.io</p>
+<p>This current version of the explorer features a simple search by address, hash, block, and public key. </p>
+<h3>Search</h3>
+<p>The explorer supports several search keys or filtering allowing anyone to look up addresses, hash, blocks, mosaics, or namespaces.</p>
+<p><img alt="" src="/user/pages/Blockchain Test Network Explorer, Wallet and Faucet Launch/Screen-Shot-2018-11-21-at-11.44.43-PM.png" /></p>
+<h3>Export</h3>
+<p>Each set of records can be exported into a CSV file.</p>
+<p><img alt="" src="/user/pages/Blockchain Test Network Explorer, Wallet and Faucet Launch/Screen-Shot-2018-11-21-at-11.45.31-PM.png" /></p>
+<h3>Further improvements to the explorer</h3>
+<p>In order to improve the explorer and user-experience, we encourage the community to test our explorer and provide us with positive feedback.</p>
+<h2>Simple Wallet / XPX Faucet</h2>
+<p>In addition to the explorer, we have also released a version of the ProximaX web wallet. This wallet is still in its early phase of development. However, it has some useful features that can be used to test out the ProximaX testnet.</p>
+<p><img alt="" src="/user/pages/Blockchain Test Network Explorer, Wallet and Faucet Launch/Screen-Shot-2018-11-30-at-3.29.14-PM.png" /></p>
+<p>http://bctestnetwallet.xpxsirius.io</p>
+<h3>Features</h3>
+<p>The wallet has a simple transfer function to allow users to make XPX transactions. The wallet has an address book function, a basic apostille, and a voting module that are referenced from NEM's NanoWallet. </p>
+<h3>More features to come</h3>
+<p>We will be introducing more features in the following weeks, including new transaction type support, and file manager/explorer using DFMS.</p>
+<p>The development team will continue to improve the wallet as we progress. Again, we encourage the community to participate by providing us with postive feedback.</p>
+<h2>Faucet</h2>
+<p>We have also deployed a simple faucet application so that users can acquire their testnet XPX. The faucet will give 100 XPX for each request. </p>
+<p>http://bctestnetfaucet.xpxsirius.io</p>
+<p><img alt="" src="/user/pages/Blockchain Test Network Explorer, Wallet and Faucet Launch/Screen-Shot-2018-11-30-at-3.30.18-PM.png" /></p>
+<h2>Development and Community Engagement</h2>
+<p>These applications are still early in development and we would like active engagement from the community to test, break, hack and give feeback. It is through this exercise that we hope to be able to improve ourselves.</p>
+<p>Log your issues/feedback on our trello board at https://trello.com/invite/b/nVu5ZxqN/e5dad0a439548aa226a61b2c14c5eebb/proximaxtestnetapps</p>
+<p>Let us all work together towards a great solution as we progress to the mainnet launch!</p>";s:12:"content_meta";N;}

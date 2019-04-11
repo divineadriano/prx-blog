@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1554346722,
-    'checksum' => '12f496bde00d606d5bd296c6be14d61a',
+    'timestamp' => 1554942775,
+    'checksum' => 'd7b09a7b28a41ec3c9ad5d16c228a44b',
     'files' => [
         'user/data/gantry5/themes/rt_requiem/config/home' => [
             'assignments' => [
@@ -11,15 +11,19 @@ return [
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/index.yaml',
-                'modified' => 1554346718
+                'modified' => 1554942523
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/layout.yaml',
-                'modified' => 1554346718
+                'modified' => 1554942523
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_requiem/config/home/page/body.yaml',
                 'modified' => 1553748710
+            ],
+            'styles' => [
+                'file' => 'user/data/gantry5/themes/rt_requiem/config/home/styles.yaml',
+                'modified' => 1554942775
             ]
         ],
         'user/data/gantry5/themes/rt_requiem/config/default' => [
@@ -769,7 +773,7 @@ return [
             ],
             'bottom' => [
                 'background' => '#ffffff',
-                'text-color' => '#888888'
+                'text-color' => '#525050'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -803,11 +807,11 @@ return [
             ],
             'footer' => [
                 'background' => '#f5f5f5',
-                'text-color' => '#888888'
+                'text-color' => '#525050'
             ],
             'main' => [
                 'background' => '#ffffff',
-                'text-color' => '#5c5c5c'
+                'text-color' => '#525050'
             ],
             'menu' => [
                 'animation' => 'g-fade',
@@ -834,7 +838,7 @@ return [
             ],
             'utility' => [
                 'background' => '#ffffff',
-                'text-color' => '#5c5c5c'
+                'text-color' => '#525050'
             ],
             'preset' => 'preset3'
         ],
@@ -941,7 +945,7 @@ return [
         ],
         'index' => [
             'name' => 'home',
-            'timestamp' => 1554346718,
+            'timestamp' => 1554942523,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1229,7 +1233,7 @@ return [
                     'attributes' => [
                         'class' => '',
                         'promostyle' => 'promo',
-                        'promo' => 'PROXIMAX',
+                        'promo' => '',
                         'desc' => 'Blockchain Reimagined and Evolved',
                         'desc2' => 'Blockchain Reimagined and Evolved',
                         'descanimation' => 'typewriter',

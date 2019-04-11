@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/grav/grav-admin/user/data/gantry5/themes/rt_requiem/config/home/index.yaml',
-    'modified' => 1554346718,
+    'modified' => 1554942523,
     'data' => [
         'name' => 'home',
-        'timestamp' => 1554346718,
+        'timestamp' => 1554942523,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',

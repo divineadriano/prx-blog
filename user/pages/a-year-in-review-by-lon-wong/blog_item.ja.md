@@ -1,6 +1,6 @@
 ---
 title: 'Lon Wong 一年的回顾'
-media_order: Year-In-Review-18-Chinese--1-.png
+media_order: shutterstock_1307279443.jpg
 published: true
 date: '01-01-2019 05:47'
 publish_date: '01-01-2019 05:47'
@@ -14,8 +14,8 @@ image:
     text:
         enabled: '1'
         file: shutterstock_1307279443.jpg
-    width: 900
-    height: 600
+    width: 1200
+    height: 800
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false

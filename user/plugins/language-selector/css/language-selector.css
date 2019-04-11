@@ -55,7 +55,7 @@
 	font-size: 1rem;
 	text-align: left;
 	list-style: none;
-	/* background-color: #fff; */
+	background-color: #fff;
 	background-clip: padding-box;
 	border: 1px solid white;
 	border-radius: 4px;
@@ -76,7 +76,7 @@
 }
 
 .language-selector .dropdown-menu li:hover {
-    background-color: #eee;
+    background-color: rgb(134, 217, 230);
 }
 
 .language-selector .dropdown-menu>li>a {

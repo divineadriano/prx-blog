@@ -1,0 +1,60 @@
+1555546401
+a:2:{s:7:"content";s:6985:"<h2>Core Development</h2>
+<p>The team has been pushing hard on progressing development to ensure we achieve our goals for the year. There has been a lot of internal discussions on design approach, proper use of patterns, changes to signature schemes, and research.  These have all helped further enhance our platform.  </p>
+<h3>Blockchain – merged with NEM Cow</h3>
+<p>NEM Tech (built by Tech Bureau Corporation) continuously upgrades their server code and the Cow update has been a great addition to our source base. The most important aspects of the Cow update for us are the fee calculation strategy and the different signature schemes. The fee calculation strategy will be validated against our own token economy design and merged accordingly to our incentivisation mechanism.</p>
+<p><img alt="" src="/user/pages/15.proximax-tech-february-2019/ProximaX-Tokenomics-Flows.png" />
+Token Economy High-Level Diagram with XPX and Stablecoin.</p>
+<h3>Storage / DFMS</h3>
+<p>Our major focus for February has been on refactoring the current Storage Platform. We have researchers and auditors that are continuously improving our code and implementations, validating the results of major changes to our core patterns and conventions. With this new structure in place, it will be easier for us to extend and make modifications to the storage platform which can also be used by public contributors once we go live (public).</p>
+<p>We have put great emphasis on the drive/directory functions. This feature will basically allow clients to rent some pre-defined amount of space, which you can use to store multiple files and folders, regardless of their quantity and structure. The only restriction is drive size, but you can avoid this limitation by using multiple drives.</p>
+<p>We also started working on our Storage Technical Documentation that we will share with the community. This will have all the technical specifications and how-to guides, which include those for our REST API and SDKs. Public DFMS will have its own set of SDKs, starting with the DFMS GO SDK as a reference implementation. This will be the main SDK that clients/DAapps will use to communicate with the storage layer and it will also be used as a thin client participant on the storage network. </p>
+<p><img alt="" src="/user/pages/15.proximax-tech-february-2019/Screen-Shot-2019-03-11-at-5.18.03-AM.png" /></p>
+<h2>File Storage Vesting/Staking Paper</h2>
+<p>We are finalising the file storage staking paper. This paper will outline the staking mechanism that will be deployed to ensure fair economic incentives. We are adding these new updates to the high-level design documentation.</p>
+<p>In a nutshell, file storage staking will be based on a dynamic staking scheme. This scheme is a more economically fair form of staking where it relies on the local demand for storage. It is the action of putting up a balance of XPX tokens as a security deposit for the right to participate as a storage node.  The purpose of stake vesting is to incentivise storage node participants to provide the best possible quality of service for platform users.  This research paper reports on the benefits of implementing file storage stake vesting, and considers what permutation of it would be most effective.</p>
+<p>We will provide more information on this in the paper which will be publish soon.</p>
+<h2>Test Network Early Access Program</h2>
+<p>By late March to early April, we will launch an early access program for developers who want to try out our test network. We will be inviting a few 1st to 2nd degree connections, as well as enterprises that want to try and build applications on top of our test network platform.</p>
+<p>As of now, we are creating a structured flow to the early access program. We are now pushing to clean up all access, SDKs, and support systems to handle this initiative. </p>
+<h2>ProximaX Web Wallet Update</h2>
+<p>We made further modifications to the web wallet which anyone can now access. </p>
+<p>Updates include: </p>
+<ol>
+<li>Support for the creation and modification of mosaics.</li>
+<li>Support for the creation and modification of namespace.</li>
+<li>Optimization of the transaction dashboard.</li>
+<li>A fix for slowness when displaying transactions.</li>
+<li>Transaction detail type added.</li>
+<li>Register for namespace.</li>
+<li>Mosaic supply change.</li>
+<li>Mosaic definition.</li>
+<li>Temporary storage of mosaics and namespace in cache per session.</li>
+<li>Change of wallet UI.</li>
+<li>Mosaic selection added to transfer module.</li>
+</ol>
+<p>You can access the test network web wallet via the link below:</p>
+<p>http://bctestnetwallet.xpxsirius.io</p>
+<p>We are continuously updating our web wallet to make it on par with our blockchain changes. We will soon have a storage and streaming based application which will complement our storage and streaming layers.</p>
+<h2>ProximaX Explorer - Further optimised</h2>
+<p>We redesigned and rebuilt the explorer to use VueJs. This has improved the performance of the explorer and trimmed the size of the distribution significantly. These improvements were made to ensure that our clients have an intuitive way of accessing the blockchain explorer data. </p>
+<p>We will be bundling this explorer with all our private/permissioned offerings moving forward.</p>
+<p>You can access the test network explorer via the link below: </p>
+<p>http://bctestnetexplorer.xpxsirius.io/</p>
+<h2>Things we are working on</h2>
+<h3>Identity System Proof of Concept (PoC)</h3>
+<p>We have started to work on an Identity System PoC. This is a generic/abstract solution that can be extended via an SDK in order for clients/customers to make validation processes via their app or device (embedded).</p>
+<p>The Identity system PoC has 4 layers: Near-field communication (NFC), Front-end, Backend, and the ProximaX Sirius Platform. It features registration, data embedded on NFC and stored on ProximaX Sirius platform, data validation offline via SDK, and a customisable form to enable extensions.</p>
+<p>A live demo showcasing this application will be released soon.</p>
+<h3>Workflow Engine</h3>
+<p>We are also working on a workflow engine backed by the ProximaX Sirius platform as a storage of immutable process flow states. This is an extremely powerful application that will enable businesses to build highly customisable flows that take advantage of ProximaX’s built-in predefined contracts/plugins. </p>
+<p><img alt="" src="/user/pages/15.proximax-tech-february-2019/Screen-Shot-2019-03-11-at-5.50.34-AM.png" /></p>
+<h2>Summary</h2>
+<p>Below is a summary of the progress made in February:</p>
+<ul>
+<li>NEM Cow update merged with ProximaX Sirius Platform.</li>
+<li>Further development of Storage/Streaming layer tech and commencement of token economy models integration.</li>
+<li>File Storage Vesting simulation and research.</li>
+<li>Introduction to Test Network Early Access Program Initiative.</li>
+<li>Identity System PoC and Workflow Engine.</li>
+</ul>";s:12:"content_meta";N;}

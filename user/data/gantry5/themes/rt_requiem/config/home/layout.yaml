@@ -129,7 +129,7 @@ content:
     attributes:
       class: ''
       promostyle: promo
-      promo: PROXIMAX
+      promo: ''
       desc: 'Blockchain Reimagined and Evolved'
       desc2: 'Blockchain Reimagined and Evolved'
       descanimation: typewriter

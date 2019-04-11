@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/grav/grav-admin/user/data/gantry5/themes/rt_requiem/config/home/layout.yaml',
-    'modified' => 1554346718,
+    'modified' => 1554942523,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -217,7 +217,7 @@ return [
                 'attributes' => [
                     'class' => '',
                     'promostyle' => 'promo',
-                    'promo' => 'PROXIMAX',
+                    'promo' => '',
                     'desc' => 'Blockchain Reimagined and Evolved',
                     'desc2' => 'Blockchain Reimagined and Evolved',
                     'descanimation' => 'typewriter',

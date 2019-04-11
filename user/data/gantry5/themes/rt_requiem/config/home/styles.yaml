@@ -1,0 +1,9 @@
+preset: preset3
+main:
+  text-color: '#525050'
+bottom:
+  text-color: '#525050'
+footer:
+  text-color: '#525050'
+utility:
+  text-color: '#525050'

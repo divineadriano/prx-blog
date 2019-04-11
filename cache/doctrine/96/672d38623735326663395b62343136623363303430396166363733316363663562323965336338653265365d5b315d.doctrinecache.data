@@ -1,0 +1,124 @@
+1555548274
+a:2:{s:7:"content";s:15160:"<p>The month of October has gotten a lot more interesting in terms of our technology. Many of the applications that we are building are now in the final stage of testing.</p>
+<h2>Tech/Developer Meetup</h2>
+<p>We had our first developer meetup in early October where Lon and I discussed the benefits of the ProximaX platform and how it can make an enormous impact on business processes. Lon outlined the several critical components of the ProximaX platform offering, and I did a high-level component overview of ProximaX, the development status as well as upcoming updates.</p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/index.jpg" /></p>
+<p>Presentation slides in PDF: </p>
+<ul>
+<li><a href="https://ipfs.io/ipfs/QmapKy64pU9CkyyGWxKSTL9yhPfS5CUxdYrpWgoEXAvVxF/20181012 NBC.pdf">ProximaX Overview</a></li>
+<li><a href="https://ipfs.io/ipfs/QmcGx7tWF3fGNrwkQQVR3Y6AoMGER9MxSo5y2qUbMnQVWr/Technical PPT.pdf">ProximaX Technology Stack Overview</a></li>
+</ul>
+<h2>Core Development Updates</h2>
+<h3>ProximaX Sirius Blockchain</h3>
+<p>I'm proud to announce that we are well on our way to provisioning our TESTNET Blockchain network. The entire team has been pushing the core changes, and we are on the final stretch of patching Catapult's core. Our plan encompasses provisioning five blockchain TESTNET nodes which will be open to the public along with other tools. The blockchain TESTNET nodes will be our staging grounds for testing catapult changes. We will incrementally increase the number of nodes as we finalize these changes. We will create another announcement specifically for our Testnet. Every release we do moving forward will be documented and announced for transparency.</p>
+<p>With NEM's Catapult, we can create a separation of our changes to theirs, and with the plugin mechanism, we can extend new transaction types specific to ProximaX which will be crucial to the overall system. </p>
+<h3>Acceptor to PDP/PoREP</h3>
+<p>We have put our efforts into building the acceptor, Proof of Data Possession (<code>PDP</code>) and Proof of Replication (<code>PoREP</code>) implementation and this is now under testing. The Acceptor is the main component that catches upload requests that are in turn fed into the node. The selected node then goes through the process of verification and an on-going challenging mechanism to make a proof of data possession.</p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/acceptor.jpg" /></p>
+<p>A <strong>Proof of Data Possession</strong> scheme allows a client that has stored data at an untrusted server to verify that the server possesses the original data without retrieving it or storing a copy himself. It accomplishes this by generating probabilistic proofs using an interactive protocol with the remote server. </p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/Screen-Shot-2018-11-09-at-1.56.00-AM.png" />
+<img alt="" src="/user/pages/ProximaX Tech - October 2018/Screen-Shot-2018-11-09-at-1.56.00-AM.png" /></p>
+<p>When the server answers the challenge/proofs, it is a mandatory process and failure to do so represents a data loss, this will affect the host's reputation and be given a lower chance of accommodating the request from the clients. Despite these though, the server can still trick the system by convincing the verifier that it still possesses the file. The server’s motivation for misbehavior can be diverse and includes reclaiming storage by discarding data that has not been or is rarely accessed (for monetary reasons), or hiding a data loss incident (due to management errors, hardware failure, compromise by outside or inside attacks, etc). </p>
+<p>The goal of a PDP scheme that achieves probabilistic proof of data possession is to detect server misbehavior when the server has deleted a fraction of the file. There are several approaches we're doing as to how we are handling such misbehavior which we will have extensive coverage in one of our technical paper that we will publish soon.</p>
+<p><strong>"Proof of Replication"</strong> is mostly the same but the challenge will consist of a prover defending a publicly verifiable claim that it is dedicating unique resources to storing one or more retrievable replicas of a data file. Viewing it from a birdseye view, when the client wants to have a file replicated, by initiating a replication request (which is enabled by default), it chooses a host and a set of verifiers (<code>%</code> of network within the vicinity), the verifiers are the ones who challenge the replicators (provers) if they hold the file using a challenge set that needs to be solved in a given time frame. There are several attributes here that actually is similar to PDP but the difference is <code>PoRep</code> is a combination of <code>Proof of Retrievability</code> and a <code>Proof of Space</code>. These 2 proofs need to be satisfied for a node to prove that it does have the file.</p>
+<p>These two concepts are just one of the consensus algorithm we are building on the storage layer of ProximaX as a way to manage proofs between host and replicators, verified by the system verifiers (which are other nodes as well). A more extensive write up of this will be available on our consensus technical white paper.</p>
+<h3>Key Concept: Storage Lifecycle</h3>
+<p>We've finalized and completed the initial implementation of our storage onboarding, and we have defined the following to understand the lifecycle of a storage node. There will be extensive coverage of this in another blog post and on our technical whitepaper but below is a summary of the process.</p>
+<p><strong>Start: Storage Node Onboarding</strong></p>
+<p>When a user wants to participate by contributing disk space, the user first needs to participate in the network. Several steps need to happen before successful participation is achieved.</p>
+<p>A storage contributor needs to run a CLI that will then evaluate the storage and disk space. Information will be collected and sent to the network for verification. The closest verifier then challenges the node to prove that it has the amount of space. The protocol is based on a puzzle over hard-to-pebble graphs. Once verified, the node can use a storage mosaic asset which will be registered on the POCA-Market selection.</p>
+<ul>
+<li>Node allocates some space on disk to be used as storage and submits to the network request for verification.</li>
+<li>Verifier runs interactive protocol, which requires a node to prove the ability to use such amount of space.  A protocol is based on the puzzle over hard-to-pebble graphs.</li>
+<li>If storage passes this protocol, a node can use a storage mosaic asset in POCA-Market for storage.</li>
+</ul>
+<p><strong>Working: Processing client requests</strong></p>
+<p>After a storage node is onboarded, it can now then process client requests. The node then publishes its price per GB or agrees on system-wide pricing set by ProximaX. After the revenue model is set, it will be included as part of the participant list that is part of the market selection process. When the node becomes a participant, it will have a reputation that can change depending on numerous factors, such as stakes, available storage, bandwidth, competitive pricing, and reported verifier stats.</p>
+<ul>
+<li>Node publishes their price per Gb or agrees on system-wide pricing set by ProximaX.</li>
+<li>After this, it can participate in a market and be selected as a storage provider or verifier of other nodes, according to storage contract, which will be described in the next chapter.</li>
+<li>During such work, storage node can receive and lose reputation, which is used as a parameter to determinate a priority of suppliers.</li>
+</ul>
+<p><strong>End: Ending of the node lifecycle.</strong></p>
+<p>When a node goes offline, it can pass its duties to other nodes. Nodes can then pass a current contract to another node which can continue the work of the off-boarded node.</p>
+<ul>
+<li>A node can just stop announcing itself as a storage provider and pass duties in a current contract to another node. </li>
+</ul>
+<h3>Reputation: PoCA Market/Selection</h3>
+<p>The entire node ecosystem of ProximaX runs on different networks but all actors within it have a reputation. After months of design and discussions, we're now ready to build this system. Reputation is used by a selection mechanism: an agent with lower reputation stands a lower chance of being selected. Reputation with vesting gives us a mechanism, which makes it optimal for users to have an identity and care not to be excluded from group consensus.</p>
+<p>When a specific client requests a service (storage), the node starting point runs a decentralized auction on market by detecting the next best node to accommodate the request.</p>
+<p>Each node maintains a market-table for each type of service where it has:</p>
+<ul>
+<li>account address, and an associated node</li>
+<li>node endpoint that provides a service</li>
+<li>amount of service provided (GB for file storage, verification of space check, content auction and auditing etc)</li>
+<li>Price Marks</li>
+<li>Location</li>
+<li>Reputation (previous statistics if any)</li>
+<li>Node Stake - we will have more details on <code>staking</code> soon.</li>
+</ul>
+<p>These are all run in a complex algorithm of handshakes and reconciliation between a specific buyer (service consumer) and a seller (service provider).</p>
+<h3>Blockchain SDKs</h3>
+<p>We have reported to the public that we are contributing to Catapult by building the SDKs for specific platforms. We've since published this and we intend to continue with it. In October we released "Go" and "Swift" SDK. We are also building Python and possibly looking at building Ruby and Rust SDKs.</p>
+<ul>
+<li>https://github.com/proximax-storage/nem2-sdk-go</li>
+<li>https://github.com/proximax-storage/nem2-sdk-swift</li>
+</ul>
+<p>Python SDK is still under development and we are collaborating with NEM Foundation to build it.</p>
+<h3>White/Technical Paper and Roadmap Updates</h3>
+<p>We now have a few technical papers lined up, which are now being reviewed and proofread. These papers will have the technical details of each of the components. We will release this to the public as soon as it's done.</p>
+<p>Given the changes we've had, we have decided to update our roadmap. Of course, we owe it to the public to show our high-level path to success. The roadmap will be shown along with the new updates to the site which will come soon. We are now in the process of our website revamp.</p>
+<h2>Application Development Updates</h2>
+<h3>ProxiBox, Notes and Keepass</h3>
+<p>ProxiBox, Notes, and Vault are now in its final stage of development/testing. ProxiBox will be renamed ProximaX File It! and Keepass will be known as ProximaX Vault. We are currently building the revenue and licensing model that will, in turn, be used to commercialize the products. The internal team is now doing all the necessary tests to ensure that all core functions are working. File it!, Notes, and Vault will be compatible with Windows, MacOS and Linux-based System. </p>
+<p>Next update:</p>
+<ul>
+<li>To build marketing campaigns.</li>
+<li>To incorporate the licensing mechanism we are building and introduce the revenue model.</li>
+</ul>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/index-1.jpg" /></p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/index1.jpg" /></p>
+<h3>ProximaX Suite</h3>
+<p>Our office suite is based on NextCloud/OnlyOffice. ProximaX Suite is a complete end-to-end office application that sits on top of the cloud, backed by our secured infrastructure service of Catapult and DFMS.</p>
+<p>You can now register and experience ProximaX Suite at:</p>
+<p>https://suite.proximax.io</p>
+<p>This version only allows for 20 concurrent users at a time.</p>
+<p>Next update:</p>
+<ul>
+<li>Launch playground site for ProximaX Suite.</li>
+<li>Marketing campaign to spread the word about the application.</li>
+<li>Explore opportunities of commercialization.</li>
+<li>Inclusion of our commercial offering.</li>
+</ul>
+<h3>Notable Updates and what's on the pipe</h3>
+<p>Here are some of the notable updates we have on application development branch.</p>
+<ul>
+<li>ProximaX Desktop Wallet with Apostille, File Manager and Voting Modules</li>
+<li>ProximaX Blockchain Explorer</li>
+<li>ProximaX Apostille (ProxiNotary)</li>
+<li>ProximaX ERP -expect a long development cycle</li>
+</ul>
+<p>These are just some of the applications we are working on and our team will give an update on these soon.</p>
+<h2>Technology Partnership and IoT Project</h2>
+<p>We've been working with 482 solutions to build the core and we intend to build a strong relationship with them. Aside from them helping us to build the platform, we've also been having preliminary discussions on building an IoT project. We will share details of this as soon as we get some traction on it but in a nutshell, the idea is a smart door lock system that's based on ProximaX Sirius blockchain. </p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/Screen-Shot-2018-11-06-at-10.31.29-PM-1.png" /></p>
+<h2>Developing Solutions. Providing Support.</h2>
+<p>Our excellent team is providing solutions and support for the following customers:</p>
+<h3>CashCart</h3>
+<p>CashCart availed our ProximaX Sirius Private Blockchain Instance and they are now using it on their Enterprise online shopping platform that has its own trustless and decentralized rewards system. We have built a solid relationship with them by signing an MoA that gives us a solid footing of ProximaX awareness and adoption in the Philippines.</p>
+<p><img alt="" src="/user/pages/ProximaX Tech - October 2018/Screen-Shot-2018-11-06-at-11.19.54-PM.png" /></p>
+<p>With CashCart's cooperation, we will be able to spread more awareness of ProximaX Technology in the Philippines. They’ll be conducting ProximaX technical training via their extensive coaching academy to help people learn the technology behind ProximaX and build communities to expand our brand across the Philippines.</p>
+<h3>Omniaz</h3>
+<p>Omniaz, like CashCart, will be availing our ProximaX Sirius blockchain instance to handle millions of SKUs. We have built a highly customized instance for them to ensure that it can handle the number of entries and transactions they need to accommodate the millions of SKUs they're putting into the system.</p>
+<p><img src="image:Screen-Shot-2018-11-06-at-11.19.40-PM.png" alt="Screen-Shot-2018-11-06-at-11.19.40-PM" /></p>
+<h2>In Summary</h2>
+<p>In October, we are pleased that much of the core development has been progressing well. We have started to build the code to support the storage mechanism, PoS Blockchain changes and Proof of Bandwidth approach for live streaming.</p>
+<p>Below is a summary of what we've done for October:</p>
+<ul>
+<li>Catapult SDKs Go and Swift</li>
+<li>PDP, PoRep and Storage Components Implementation</li>
+<li>Storage Lifecycle</li>
+<li>ProximaX Sirius PoS Peer Review and blockchain TESTNET launch preparation</li>
+<li>Developing Solutions for Customers</li>
+<li>Start of exploring potential IoT project opportunities</li>
+</ul>";s:12:"content_meta";N;}

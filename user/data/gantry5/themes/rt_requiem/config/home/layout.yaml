@@ -9,9 +9,9 @@ layout:
       - system-messages-6610
   /navigation/:
     -
-      - 'logo-4141 15'
+      - 'logo-4141 13'
       - 'menu-5335 80'
-      - 'language-selector-7214 5'
+      - 'language-selector-7214 7'
   /header/:
     -
       - promocontent-2358
